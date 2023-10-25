@@ -1,5 +1,6 @@
 [<img src="img/banner_large.png">](https://www.nlpfromscratch.com/)
 
+
 # Master NLP and LLM Resource List
 
 This is the master resource list for [NLP from scratch](https://www.nlpfromscratch.com). This is a living document and will continually be updated and so should always be considered a work in progress. If you find any dead links or other issues, feel free to [submit an issue](https://github.com/nlpfromscratch/nlp-llms-resources/issues/new/choose).
@@ -69,7 +70,7 @@ Thanks, and enjoy!
 * [Tensorflow Text](https://www.tensorflow.org/text): Lower level than KerasNLP, text manipulation built into Tensorflow. 
 * [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/): Java-based NLP library from Stanford, still important and in use
 * [TextBlob](https://textblob.readthedocs.io/en/dev/): Easy to use NLP library in Python, including simple sentiment scoring and part-of-speech (POS) tagging.
-* [Scikit-learn (sklearn):](https://scikit-learn.org/stable/) Obviously, **the** library for doing machine learning in python, but more specifically [for working with text data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html#extracting-features-from-text-files).
+* [Scikit-learn (sklearn):](https://scikit-learn.org/stable/) The essential library for doing machine learning in python, but more specifically [for working with text data](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html#extracting-features-from-text-files).
 * [SparkNLP](https://nlp.johnsnowlabs.com/): Essential Big Data library for NLP work from John Snow Labs. Take a look at their [extensive model repo](https://sparknlp.org/models). Github repo with lots of resources [here](https://github.com/JohnSnowLabs/spark-nlp). Medium [post here](https://towardsdatascience.com/hands-on-googles-text-to-text-transfer-transformer-t5-with-spark-nlp-6f7db75cecff) on using the T5 model for classification with SparkNLP.
 
 
@@ -170,7 +171,7 @@ Thanks, and enjoy!
 
 
 
-* [NLP Interview Checklist](https://www.kaggle.com/discussions/getting-started/432875): Checklist of knowledge for interviewing for NLP roles.
+* [NLP Interview Checklist](https://www.kaggle.com/discussions/getting-started/432875): Checklist of knowledge for interviewing for NLP roles. 
 
 
 ## Large Language Models (LLMs) and Gen AI
@@ -193,6 +194,7 @@ Thanks, and enjoy!
 * [GPT in 60 lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/): Great blog post on building GPT from scratch and the fundamental workings of the decoder side of the transformer.
 * Explanations of [Temperature](https://docs.cohere.com/docs/temperature) and [Top-p and Top-k sampling](https://docs.cohere.com/docs/controlling-generation-with-top-k-top-p#2-pick-from-amongst-the-top-tokens-top-k) Cohere documentation.
 * [Creatively Deterministic: What are Temperature and Top P in Generative AI?](https://www.linkedin.com/pulse/creatively-deterministic-what-temperature-topp-ai-kevin-tupper/): LinkedIn post on temperature, top-p, and top-k
+* [What is Temperature in NLP?](https://lukesalamone.github.io/posts/what-is-temperature/) A short explainer on temperature with a nice accompanying interactive visual, showing its effect on output probabilities.
 
 
 ### Summarization
@@ -331,6 +333,15 @@ Thanks, and enjoy!
 * [CodeLLama](https://ai.meta.com/blog/code-llama-large-language-model-coding/): Fine-tuned version of LLaMA 2 for coding tasks, from Meta.
 * [Tabby](https://tabby.tabbyml.com/): Open source, locally-hosted coding assistant framework. Can use Starcoder or CodeLLaMA.
 * [DuetAI for Developers](https://cloud.google.com/blog/products/application-development/introducing-duet-ai-for-developers): Coding assistance based on PaLM as part of Google’s DuetAI offering. 
+* [Gorilla LLM](https://gorilla.cs.berkeley.edu/): LLM model from researchers at UC Berkeley trained to generate API calls across many different platforms and tools.
+
+
+#### Mathematics
+
+
+
+* [MathGLM](https://github.com/THUDM/MathGLM): Open model from Tsinghua University researchers challenging the statement that LLMs cannot do mathematics well. Nonetheless, [math remains hard if you’re an LLM](https://garymarcus.substack.com/p/math-is-hard-if-you-are-an-llm-and).
+* [Llemma: An Open Language Model For Mathematics](https://blog.eleuther.ai/llemma): Fine-tuned version of CodeLLaMA on new dataset [Proof-Pile-2](https://huggingface.co/datasets/EleutherAI/proof-pile-2) from Eleuther AI, a mixture of scientific papers and mathematical web content.
 
 
 #### Finance
@@ -379,16 +390,21 @@ Thanks, and enjoy!
 * [HeLM](https://crfm.stanford.edu/helm/latest/): Holistic Evaluation of Language Models, a “living” benchmark designed to be comprehensive, from the Center for Research on Foundation Models (CRFM) at Stanford.
 * [HellaSwag](https://rowanzellers.com/hellaswag/): a challenge dataset for evaluating commonsense NLI that is specially hard for state-of-the-art models, though its questions are trivial for humans (>95% accuracy).
 * [Dynabench](https://dynabench.org/): A “platform for dynamic data collection and benchmarking”. Sort of a Kaggle / collaborative site for benchmarks and data collaboration, an effort of researchers from Meta and American universities.
+* [Evaluating LLMs is a minefield](https://www.cs.princeton.edu/~arvindn/talks/evaluating_llms_minefield/): Popular deck from researchers at Princeton (and authors of AI Snake Oil) on the pitfalls and intricacies of evaluating LLMs. 
 * [LM Contamination Index](https://hitz-zentroa.github.io/lm-contamination/): The LM Contamination Index is a manually created database of contamination of LLM evaluation benchmarks.
 * [The Curious Case of LLM Evaluation](https://nlpurr.github.io/posts/case-of-llm-evals.html): In depth blog post, examining some of the finer nuances and sticking points of evaluating LLMs. 
 * [LLM Benchmarks](https://benchmarks.llmonitor.com/): Dynamic dataset of crowd-sourced prompt that changes weekly for more realistic LLM evaluation.
 * [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness): EleutherAI’s language model evaluation harness, a unified framework to test generative language models on over 200 different evaluation tasks.
 
-### Agents:
+
+### Agents
 
 
 
+* [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT): One of the most popular frameworks for using LLM agents, using the OpenAI API / GPT4.
 * [ThinkGPT](https://github.com/jina-ai/thinkgpt): python library for implementing Chain of Thoughts for LLMs, prompting the model to think, reason, and to create generative agents.
+* [AutoGen](https://microsoft.github.io/autogen/): Multi-agent LLM framework for building applications from Microsoft.
+* [XAgent](https://blog.x-agent.net/): Open-source experimental agent, designed to be a general-purpose and applied to a wide range of tasks. From students at Tsinghua University.
 * [Thought Cloning](https://github.com/ShengranHu/Thought-Cloning): Github repo for implementation of Thought Cloning (TC), an imitation learning framework by training agents to think like humans.
 * [Demonstrate-Search-Predict (DSP)](https://github.com/stanfordnlp/dsp): framework for solving advanced tasks with language models (LMs) and retrieval models (RMs). 
 * [ReAct Framework](https://www.promptingguide.ai/techniques/react): Prompting method includes examples with actions, the observations gained by taking those actions, and transcribed thoughts (reasoning) for LLMs to take complex actions and reason or solve problems.
@@ -467,6 +483,7 @@ Thanks, and enjoy!
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
+* [ML Foundations](https://github.com/mlfoundations): Github repo for Ludwig Schmidt from University of Washington, includes open versions of multimodal models Flamingo & CLIP
 
 
 ### Visualization
@@ -520,6 +537,7 @@ Thanks, and enjoy!
 * [LLMOps Space](https://llmops.space/): global community for LLM practitioners & enthusiasts, focused on topics related to deploying LLMs into production
 * [Aggregate Intellect Socratic Circles (AISC)](https://aisc.ai.science/about): Online community of ML and AI practitioners based in Toronto, with Slack server, journal club, and free talks
 * [/r/LanguageTechnology](https://www.reddit.com/r/LanguageTechnology/): Reddit community on Natural Language Processing and LLMs with over 40K members
+* [/r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/): Subreddit to discuss training Llama and development around it, though also contains a lot of good general LLM discussion.
 
 
 ### MOOCS and Courses
@@ -531,7 +549,7 @@ Thanks, and enjoy!
 * [Stanford CS224N](https://web.stanford.edu/class/cs224n/): NLP with Deep Learning: NLP with Deep Learning, Youtube [playlist of lectures is here](https://youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4&feature=shared).
 * [Stanford CS25: Transformers United V3](https://web.stanford.edu/class/cs25/): Stanford course breaking down how transformers work, and dive deep into the different kinds of transformers and how they're applied in different fields. The associated playlist with all the lectures [is available on Youtube](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM).
 * [CS685: Advanced Natural Language Processing (Spring 2023)](https://youtube.com/playlist?list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj&feature=shared): Content of this graduate-level course from the University of Massachusetts Amherst - lots of content on LLMs and Transformers. [Full course materials here](https://people.cs.umass.edu/~miyyer/cs685/schedule.html).
-* [Hugging Face’s NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1): With a focus on using the transformers library and transformer models.
+* [Hugging Face’s NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1\): With a focus on using the transformers library and transformer models.
 * [LLM University](https://docs.cohere.com/docs/llmu): Documentation and free learning on LLMs from Cohere.
 * [Advanced NLP with spaCy](https://course.spacy.io/en/): Course from Ines Montani, one of the course developers at spaCY, one using it. Includes data analysis, pipelines, and fitting models.
 * [Applied Language Technology](https://applied-language-technology.mooc.fi): MOOC from the University of Helsinki on NLP, focusing on using spaCy.
@@ -559,6 +577,16 @@ Thanks, and enjoy!
 * [Introduction to Modern Statistics](https://openintro-ims2.netlify.app/): Free online textbook on statistics.
 * [Dive into Deep Learning](http://d2l.ai/): Interactive deep learning book with code, math, and discussions implemented with multiple frameworks. Chapters 9-11 focus on RNNs & Transformers and 15-16 on NLP applications.
 * [Understanding Deep Learning](https://udlbook.github.io/udlbook/): by Simon J.D. Prince, free online and includes all code in Jupyter notebooks. Chapter 12 covers the transformer architecture.
+
+
+### Surveys
+
+
+
+* [Anaconda’s State of Data Science Report 2023](https://www.anaconda.com/state-of-data-science-report-2023): Anaconda’s annual survey for general DS. Requires form submission with email / personal details to download. 
+* [State of AI Report 2023](https://www.stateof.ai/): From AirStreet Capital. Very dense report focusing on high-level trends, industry players, funding, etc. and focused on LLMs and generative AI.
+* [Kaggle’s AI Report 2023](https://www.kaggle.com/AI-Report-2023): State of AI from Kaggle, taking the form of community-written long-form essays as part of a Kaggle competition
+* [MLOps Community 2023 LLM Survey Report:](https://mlops.community/surveys/llm/) Survey from [MLOps.communtiy](MLOps.community) on trends in LLM usage and adoption.
 
 
 ### Aggregators and Online Resources
