@@ -186,6 +186,14 @@ Thanks, and enjoy!
 * [Understanding Causal LLMs, Masked LLM’s, and Seq2Seq: A Guide to Language Model Training Approaches](https://medium.com/@tom_21755/understanding-causal-llms-masked-llm-s-and-seq2seq-a-guide-to-language-model-training-d4457bbd07fa): Medium post breaking down the different types of language modeling training approaches, causal language modeling vs masked language modeling (CLM vs MLM).
 
 
+### Foundation Models
+
+
+
+* [Explainer: What is a foundation model?](https://www.adalovelaceinstitute.org/resource/foundation-models-explainer/): A good and lengthy explainer and discussion of foundation models, including visuals and tables. From Ada Lovelace Institute.
+* [Center for Research on Foundation Models (CRFM)](https://crfm.stanford.edu/): Interdisciplinary initiative born out of the Stanford Institute for Human-Centered Artificial Intelligence (HAI) that aims to make fundamental advances in the study, development, and deployment of foundation models. See the [report](https://crfm.stanford.edu/report.html) and the [transparency index](https://crfm.stanford.edu/fmti/).
+
+
 ### Text Generation
 
 
@@ -245,6 +253,7 @@ Thanks, and enjoy!
 
 
 * [GPT4All](https://gpt4all.io): Locally-hosted LLM from Nomic for offline development. 
+* [LM Studio](https://lmstudio.ai/): Software framework for local LLM development and usage.
 * [OpenAI Cookbook:](https://cookbook.openai.com/) Recipes and tutorial posts for working and building with OpenAI, all in one place. Example code in the [Github repo](https://github.com/openai/openai-cookbook).
 
 
@@ -275,6 +284,7 @@ Thanks, and enjoy!
 * [Musenet](https://openai.com/research/musenet): Older research from OpenAI, Musenet applied the GPT architecture to MIDI files to compose music.
 * [AudioCraft:](https://ai.meta.com/resources/models-and-libraries/audiocraft/) Multiple models from Meta research, for music (MusicGen), sound effect (AudioGen), and a codec and diffusion model for recovering compressed audio (EnCodec and Multi-band Diffusion). Demo also available in a [Hugging Face space](https://huggingface.co/spaces/facebook/MusicGen), and a [sample Colab notebook here](https://huggingface.co/spaces/facebook/MusicGen/blob/main/demo.ipynb).
 * [StableAudio](https://www.stableaudio.com/): Diffusion-based music generation model from Stability AI. [Blog post with technical details](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion).
+* [SALMONN](https://github.com/bytedance/SALMONN): Speech Audio Language Music Open Neural Network from researchers at Tsinghua University and ByteDance. Allows for things like inquiring about the content of audio files, multilingual speech recognition & translation and audio-speech co-reasoning.
 * Real-time translation and lip-synching: [https://blog.invgate.com/video-translator](https://blog.invgate.com/video-translator)
 * [HeyGen](https://www.heygen.com/): Startup creating AI generated avatars and multimedia content, _e.g. _for instructional videos. [Video demo](https://www.youtube.com/watch?v=FRMDJzYO1k4) of lip-synching (dubbing) and translation.
 * [Whisper](https://openai.com/research/whisper): OpenAI’s open source multilingual, text-to-speech transcription model. [Official Github repo](https://github.com/openai/whisper) with lots of details.
