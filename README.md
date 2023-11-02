@@ -191,7 +191,8 @@ Thanks, and enjoy!
 
 
 * [Explainer: What is a foundation model?](https://www.adalovelaceinstitute.org/resource/foundation-models-explainer/): A good and lengthy explainer and discussion of foundation models, including visuals and tables. From Ada Lovelace Institute.
-* [Center for Research on Foundation Models (CRFM)](https://crfm.stanford.edu/): Interdisciplinary initiative born out of the Stanford Institute for Human-Centered Artificial Intelligence (HAI) that aims to make fundamental advances in the study, development, and deployment of foundation models. See the [report](https://crfm.stanford.edu/report.html) and the [transparency index](https://crfm.stanford.edu/fmti/).
+* [Center for Research on Foundation Models (CRFM)](https://crfm.stanford.edu/): Interdisciplinary initiative born out of the Stanford Institute for Human-Centered Artificial Intelligence (HAI) that aims to make fundamental advances in the study, development, and deployment of foundation models. See the [report](https://crfm.stanford.edu/report.html), [transparency index](https://crfm.stanford.edu/fmti/), and their [master list of models](https://crfm.stanford.edu/helm/latest/?models=1) (increment using the URL).
+* [Getting Started with Llama](https://ai.meta.com/llama/get-started/): Official getting started page for working with LLaMA 2 model from Meta.
 
 
 ### Text Generation
@@ -218,7 +219,8 @@ Thanks, and enjoy!
 
 * [Fine-tuning Guide from OpenAI](https://platform.openai.com/docs/guides/fine-tuning): Official docs from OpenAI on fine-tuning hosted GPT-3.5-turb.
 * [Getting Started with Deep Learning with PyTorch and Hugging Face](https://github.com/philschmid/deep-learning-pytorch-huggingface/tree/main): Lots of example notebooks for fine-tuning models (T5, Falcon, LLaMA) from Phil Schmid of Hugging Face
-* [HuggingFace Community Resources:](https://huggingface.co/docs/transformers/community) Community resources from Hugging Face. A ton of free Colab notebooks here on fine-tuning various foundation models.
+* [HuggingFace Community Resources:](https://huggingface.co/docs/transformers/community) Community resources from Hugging Face. A ton of free Colab notebooks here on fine-tuning various foundation models
+* [Personal Copilot: Train Your Own Coding Assistant](https://huggingface.co/blog/personal-copilot): Blog post from Hugging Face on fine-tuning a code generating LLM, using both traditional fine-tuning and PEFT with StarCoder.
 * [GPT 3.5 vs Llama 2 fine-tuning: A Comprehensive Comparison](https://ragntune.com/blog/gpt3.5-vs-llama2-finetuning): Short blog post comparing fine-tuning GPT vs. LLaMA 2 on a SQL code task, taking price into consideration.
 * [Regression with Text Input Using BERT and Transformers](https://lajavaness.medium.com/regression-with-text-input-using-bert-and-transformers-71c155034b13): Fairly in-depth Medium post (including a lot of code) on using BERT for regression.
 * [LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models](https://huggingface.co/papers/2309.12307): Method for fine-tuning models (specifically LLaMA and Alpaca) to have longer context windows. Lots of resources around this on their [official Github page](https://github.com/dvlab-research/LongLoRA).  
@@ -228,6 +230,7 @@ Thanks, and enjoy!
 * [QLoRA](https://github.com/artidoro/qlora): Efficient Finetuning of Quantized LLMs, official Github repo. The method that produced Guanaco from LLaMA. 
 * [Instruction Tuning Volume 1:](https://nlpnewsletter.substack.com/p/instruction-tuning-vol-1) Summary of instruction-tuning and links to some resources from Sebastian Ruder’s NLP newsletter.
 * [Finetuning LLMs with LoRA and QLoRA: Insights from Hundreds of Experiments](https://lightning.ai/pages/community/lora-insights): Results of many experiments with model fine tuning using LoRA and QLoRA from Lightning AI, on memory and compute usage, training time, etc.
+* [Overview of PEFT: State-of-the-art Parameter-Efficient Fine-Tuning](https://www.kdnuggets.com/overview-of-peft-stateoftheart-parameterefficient-finetuning): Article from KDNuggets with example code using LLaMA 7B
 * [Llama Recipes](https://github.com/facebookresearch/llama-recipes): Recipes from Meta themselves for fine-tuning LLaMA
 
 
@@ -255,6 +258,8 @@ Thanks, and enjoy!
 * [GPT4All](https://gpt4all.io): Locally-hosted LLM from Nomic for offline development. 
 * [LM Studio](https://lmstudio.ai/): Software framework for local LLM development and usage.
 * [OpenAI Cookbook:](https://cookbook.openai.com/) Recipes and tutorial posts for working and building with OpenAI, all in one place. Example code in the [Github repo](https://github.com/openai/openai-cookbook).
+* [SuperWhisper](https://superwhisper.com/): Local usage of Whisper model on Mac OS, allows you to speak commands to your machine and have them transcribed (all locally).
+* [Cursor](https://cursor.sh/): Locally installable code editor with autocomplete, chat, etc. backed by OpenAI GPT3.5/4.
 
 
 ### Multimodal LLMs
@@ -267,7 +272,8 @@ Thanks, and enjoy!
 * [Stable Diffusion](https://stability.ai/stablediffusion): The open model from Stability AI that brought AI-generated images to the forefront. Official [Github repo here](https://github.com/CompVis/stable-diffusion), and (one of many) [Hugging Face Space](https://huggingface.co/spaces/stabilityai/stable-diffusion) here (for SD 2.1).
 * [Finetune Stable Diffusion Models with DDPO via TRL](https://huggingface.co/blog/trl-ddpo): Blog post from Hugging Face on fine-tuning SD with reinforcement learning and Denoising Diffusion Policy Optimization (DDPO).
 * [Fast Stable Diffusion XL on TPU v5e](https://huggingface.co/spaces/google/sdxl): Hugging Face space with hosted SDXL on TPU for free and fast generation of high quality (1024x1024) images.
-* [DeciDiffusion](https://huggingface.co/Deci/DeciDiffusion-v1-0): Optimized SD 1.5 model from Deci.ai 
+* [DeciDiffusion](https://huggingface.co/Deci/DeciDiffusion-v1-0): Optimized SD 1.5 model from Deci.ai
+* [Segmind-Distill-SD](https://blog.segmind.com/introducing-segmind-ssd-1b/): Distilled Stable Diffusion model from Segmind, claims 50% smaller and 60% faster. [Github repo here](https://github.com/segmind/distill-sd) & [Hugging Face model](https://huggingface.co/segmind/SSD-1B) here.  
 * [Emu: Enhancing Image Generation Models Using Photogenic Needles in a Haystack AI](https://ai.meta.com/research/publications/emu-enhancing-image-generation-models-using-photogenic-needles-in-a-haystack): Fine-tuning of Stable Diffusion from Meta research focusing on high-quality images.
 * [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://dreambooth.github.io/): Method for fine-tuning diffusion models to generate custom images of a subject based on samples.
 * [AutoTrain Dreambooth (Colab)](https://colab.research.google.com/github/huggingface/autotrain-advanced/blob/main/colabs/AutoTrain_Dreambooth.ipynb#scrollTo=_LvIS7-7PcLT): Google Colab notebook for Autotraining Dreambooth models using Hugging Face.
@@ -289,6 +295,7 @@ Thanks, and enjoy!
 * [HeyGen](https://www.heygen.com/): Startup creating AI generated avatars and multimedia content, _e.g. _for instructional videos. [Video demo](https://www.youtube.com/watch?v=FRMDJzYO1k4) of lip-synching (dubbing) and translation.
 * [Whisper](https://openai.com/research/whisper): OpenAI’s open source multilingual, text-to-speech transcription model. [Official Github repo](https://github.com/openai/whisper) with lots of details.
 * [whisper_real_time](https://github.com/davabase/whisper_real_time): Example of real-time audio transcription using Whisper
+* [whisper.cpp](https://github.com/ggerganov/whisper.cpp): High-performance plain C/C++ implementation of inference using OpenAI's Whisper without dependencies
 * [AdaSpeech 4: Adaptive Text to Speech in Zero-Shot Scenarios](https://speechresearch.github.io/adaspeech4/): Model for realistic audio generation (text-to-speech / TTS) from researchers at Microsoft.
 * [Project Gutenberg Audio Collection Project](https://marhamilresearch4.blob.core.windows.net/gutenberg-public/Website/index.html): Thousands of free audiobooks transcribed using AdaSpeech4, brought to you by Project Gutenberg, MIT, and Microsoft 
 * [ElevenLabs](https://elevenlabs.io/): Well-known American software company with AI voice cloning and translation products.
@@ -307,6 +314,7 @@ Thanks, and enjoy!
 * [IDEFICS](https://huggingface.co/blog/idefics): Open multimodal text and image model from Hugging Face based on [Flamingo](https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model NeRF (), similar to GPT4-V.
 * [NeRF](https://www.matthewtancik.com/nerf); Neural Radiance fields creates multiple views of a scene from a single image. 
 * [ZipNeRF](https://jonbarron.info/zipnerf/): Building on NeRF with more advanced techniques and impressive results, generating drone-style “fly-by” videos from still images of settings.
+* [Pegasus-1](https://app.twelvelabs.io/blog/introducing-pegasus-1): Multimodal model from TwelveLabs for describing videos and video-to-text generation.
 * [Gen-2 by RunwayML](https://research.runwayml.com/gen2): Video-generating multimodal model from Runway ML that takes text or images as input. 
 * [Replay](https://blog.genmo.ai/log/replay-ai-video): Video (animated picture) generating model from Genmo AI 
 * [Hotshot XL](https://www.hotshot.co/): Text to animated GIF generator based on Stable Diffusion XL. [Github](https://github.com/hotshotco/Hotshot-XL) and [Hugging Face model page](https://huggingface.co/hotshotco/Hotshot-XL).
@@ -400,6 +408,8 @@ Thanks, and enjoy!
 * [HeLM](https://crfm.stanford.edu/helm/latest/): Holistic Evaluation of Language Models, a “living” benchmark designed to be comprehensive, from the Center for Research on Foundation Models (CRFM) at Stanford.
 * [HellaSwag](https://rowanzellers.com/hellaswag/): a challenge dataset for evaluating commonsense NLI that is specially hard for state-of-the-art models, though its questions are trivial for humans (>95% accuracy).
 * [Dynabench](https://dynabench.org/): A “platform for dynamic data collection and benchmarking”. Sort of a Kaggle / collaborative site for benchmarks and data collaboration, an effort of researchers from Meta and American universities.
+* [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): Leaderboard from H4 (alignment) Group at Hugging Face. Largely open and fine-tuned models, though this can be filtered.
+* [OpenCompass](https://opencompass.org.cn/leaderboard-llm): Leaderboard for Chinese LLMs.
 * [Evaluating LLMs is a minefield](https://www.cs.princeton.edu/~arvindn/talks/evaluating_llms_minefield/): Popular deck from researchers at Princeton (and authors of AI Snake Oil) on the pitfalls and intricacies of evaluating LLMs. 
 * [LM Contamination Index](https://hitz-zentroa.github.io/lm-contamination/): The LM Contamination Index is a manually created database of contamination of LLM evaluation benchmarks.
 * [The Curious Case of LLM Evaluation](https://nlpurr.github.io/posts/case-of-llm-evals.html): In depth blog post, examining some of the finer nuances and sticking points of evaluating LLMs. 
