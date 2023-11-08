@@ -182,6 +182,7 @@ Thanks, and enjoy!
 
 
 * [A Beginner’s Guide to Large Language Models](https://resources.nvidia.com/en-us-large-language-model-ebooks/llm-ebook-part1): Free e-book from NVIDIA covering some of the absolute fundamentals in plain language.
+* [How AI chatbots like ChatGPT or Bard work – visual explainer](https://www.theguardian.com/technology/ng-interactive/2023/nov/01/how-ai-chatbots-like-chatgpt-or-bard-work-visual-explainer): A good short visual explainer from The Guardian on how embeddings works and make LLMs function.
 * [Generative AI Primer](https://er.educause.edu/articles/2023/8/a-generative-ai-primer): A primer for the layperson on generative AI and LLMs, from Educause Review - lots of links to source materials here and well-written. 
 * [Understanding Causal LLMs, Masked LLM’s, and Seq2Seq: A Guide to Language Model Training Approaches](https://medium.com/@tom_21755/understanding-causal-llms-masked-llm-s-and-seq2seq-a-guide-to-language-model-training-d4457bbd07fa): Medium post breaking down the different types of language modeling training approaches, causal language modeling vs masked language modeling (CLM vs MLM).
 
@@ -200,6 +201,7 @@ Thanks, and enjoy!
 
 
 * [How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate): Overview of different text generation decoding methods from HuggingFace including beam search vs greedy, top-p and top-k sampling.
+* [Guiding Text Generation with Constrained Beam Search in 🤗 Transformers](https://huggingface.co/blog/constrained-beam-search): Blog post from HF on using constrained Beam Search in transformers as opposed to regular beam search.
 * [GPT in 60 lines of Numpy](https://jaykmody.com/blog/gpt-from-scratch/): Great blog post on building GPT from scratch and the fundamental workings of the decoder side of the transformer.
 * Explanations of [Temperature](https://docs.cohere.com/docs/temperature) and [Top-p and Top-k sampling](https://docs.cohere.com/docs/controlling-generation-with-top-k-top-p#2-pick-from-amongst-the-top-tokens-top-k) Cohere documentation.
 * [Creatively Deterministic: What are Temperature and Top P in Generative AI?](https://www.linkedin.com/pulse/creatively-deterministic-what-temperature-topp-ai-kevin-tupper/): LinkedIn post on temperature, top-p, and top-k
@@ -296,6 +298,7 @@ Thanks, and enjoy!
 * [Whisper](https://openai.com/research/whisper): OpenAI’s open source multilingual, text-to-speech transcription model. [Official Github repo](https://github.com/openai/whisper) with lots of details.
 * [whisper_real_time](https://github.com/davabase/whisper_real_time): Example of real-time audio transcription using Whisper
 * [whisper.cpp](https://github.com/ggerganov/whisper.cpp): High-performance plain C/C++ implementation of inference using OpenAI's Whisper without dependencies
+* [Deepgram](https://deepgram.com/): Audio AI company with enterprise offerings for TTS including both their own Nova-2 model as well as Whisper or custom models.
 * [AdaSpeech 4: Adaptive Text to Speech in Zero-Shot Scenarios](https://speechresearch.github.io/adaspeech4/): Model for realistic audio generation (text-to-speech / TTS) from researchers at Microsoft.
 * [Project Gutenberg Audio Collection Project](https://marhamilresearch4.blob.core.windows.net/gutenberg-public/Website/index.html): Thousands of free audiobooks transcribed using AdaSpeech4, brought to you by Project Gutenberg, MIT, and Microsoft 
 * [ElevenLabs](https://elevenlabs.io/): Well-known American software company with AI voice cloning and translation products.
@@ -503,6 +506,7 @@ Thanks, and enjoy!
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
+* [Yi](https://01.ai/): Open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B.
 * [ML Foundations](https://github.com/mlfoundations): Github repo for Ludwig Schmidt from University of Washington, includes open versions of multimodal models Flamingo & CLIP
 
 
@@ -511,7 +515,7 @@ Thanks, and enjoy!
 
 
 * [BERTViz:](https://github.com/jessevig/bertviz) Interactive tool for visualizing attention in Transformer language models such as BERT, GPT2, or T5, based in Python and can be run in Colab.
-* [Jay Alammar’s Blog](https://jalammar.github.io/): Lots of great posts here visualizing and explaining LLMs such as [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) and [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/) 
+* [Jay Alammar’s Blog](https://jalammar.github.io/): Lots of great posts here visualizing and explaining LLMs such as [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) and [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/)
 
 
 ### Prompt Engineering
@@ -521,6 +525,7 @@ Thanks, and enjoy!
 * [Prompt Engineering Guide](https://www.promptingguide.ai/): Comprehensive site for all things prompting related and beyond.
 * [Prompts for Education: Enhancing Productivity & Learning](https://github.com/microsoft/prompts-for-edu): Github repo with resources on using generative AI and prompting in educational settings. 
 * [How I Think About Prompt Engineering](https://fchollet.substack.com/p/how-i-think-about-llm-prompt-engineering): Post by Francis Chollet (creator of Keras) relating prompting back to programming paradigms.
+* [PromptIDE](https://x.ai/prompt-ide): Development environment and paradigm for prompt programming from xAI using their Grok model.
 
 
 ### Ethics, Bias, and Legal
@@ -582,7 +587,8 @@ Thanks, and enjoy!
 * [Generative AI Foundations on AWS Technical Deep Dive Series](https://www.youtube.com/playlist?list=PLhr1KZpdzukf-xb0lmiU3G89GJXaDbAIF): Youtube playlist of working with GenAI, training and fine-tuning models with Sagemaker. 
 * [FourthBrain Resources](https://fourthbrain.ai/resources): Free resources from Fourthbrain from their community sessions and webinars, mainly focused on LLM development. 
 * [Natural Language Processing with Large Language Models](https://github.com/jonkrohn/NLP-with-LLMs): Technical notebooks here from Jon Krohn’s half-day ODSC East workshop. Includes using transformers library for fine-tuning with T5 and using OpenAI API.
-* [Spark NLP Workshops](https://github.com/JohnSnowLabs/spark-nlp-workshop): A lot of resources here on all things SparkNLP, including code in Jupyter notebooks for different applications of SparkNLP to many use cases.
+* [Spark NLP Workshops](https://github.com/JohnSnowLabs/spark-nlp-workshop): A lot of resources here on all things SparkNLP, including code in Jupyter notebooks for different applications of SparkNLP to many use cases. 
+* [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners#generative-ai-for-beginners---a-course): Free online course from Microsoft
 
 
 ### Books
