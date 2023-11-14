@@ -45,6 +45,7 @@ Thanks, and enjoy!
 * [TabLib](https://www.approximatelabs.com/blog/tablib): Largest publicly available dataset of tabular tokens (627M tables, 867B tokens), to encourage the community to build Large Data Models that better understand tabular data
 * [LAION 5B](https://laion.ai/blog/laion-5b/): Massive dataset of images and captions from Large-scale Artificial Intelligence Open Network (LAION), used to train Stable Diffusion.
 * [Databricks Dolly 15K](databricks/databricks-dolly-15k): Instruction dataset compiled internally by Databricks, used to train the Dolly models based on the Pythia LLMs.
+* [Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/): Large image & caption pair dataset from Google research.
 
 
 ### Data Acquistion
@@ -221,8 +222,10 @@ Thanks, and enjoy!
 
 * [Fine-tuning Guide from OpenAI](https://platform.openai.com/docs/guides/fine-tuning): Official docs from OpenAI on fine-tuning hosted GPT-3.5-turb.
 * [Getting Started with Deep Learning with PyTorch and Hugging Face](https://github.com/philschmid/deep-learning-pytorch-huggingface/tree/main): Lots of example notebooks for fine-tuning models (T5, Falcon, LLaMA) from Phil Schmid of Hugging Face
+* [Fine-tune a non-English GPT-2 Model with Huggingface](https://www.philschmid.de/fine-tune-a-non-english-gpt-2-model-with-huggingface): “Hello World” example of fine-tuning a GPT2 model to write German recipes.
 * [HuggingFace Community Resources:](https://huggingface.co/docs/transformers/community) Community resources from Hugging Face. A ton of free Colab notebooks here on fine-tuning various foundation models
 * [Personal Copilot: Train Your Own Coding Assistant](https://huggingface.co/blog/personal-copilot): Blog post from Hugging Face on fine-tuning a code generating LLM, using both traditional fine-tuning and PEFT with StarCoder.
+* [Optimizing Pre-Trained Models: A Guide To Parameter-Efficient Fine-Tuning (PEFT)](https://www.leewayhertz.com/parameter-efficient-fine-tuning/): A long guide on terminology and the particulars of different types of PEFT.
 * [GPT 3.5 vs Llama 2 fine-tuning: A Comprehensive Comparison](https://ragntune.com/blog/gpt3.5-vs-llama2-finetuning): Short blog post comparing fine-tuning GPT vs. LLaMA 2 on a SQL code task, taking price into consideration.
 * [Regression with Text Input Using BERT and Transformers](https://lajavaness.medium.com/regression-with-text-input-using-bert-and-transformers-71c155034b13): Fairly in-depth Medium post (including a lot of code) on using BERT for regression.
 * [LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models](https://huggingface.co/papers/2309.12307): Method for fine-tuning models (specifically LLaMA and Alpaca) to have longer context windows. Lots of resources around this on their [official Github page](https://github.com/dvlab-research/LongLoRA).  
@@ -352,9 +355,11 @@ Thanks, and enjoy!
 * [DeciCoder 1B](https://huggingface.co/Deci/DeciCoder-1b): Code completion LLM from Deci AI, trained on Starcoder dataset. 
 * [SQLCoder](https://github.com/defog-ai/sqlcoder): Open text-to-SQL query models fine-tuned on Starcoder, from Defog AI. Demo [is here](https://defog.ai/sqlcoder-demo/).
 * [CodeLLama](https://ai.meta.com/blog/code-llama-large-language-model-coding/): Fine-tuned version of LLaMA 2 for coding tasks, from Meta.
+* [Refact Code LLM](https://refact.ai/blog/2023/introducing-refact-code-llm/): 1.6B coding LLM with fill-in-the-middle (fim) capability, trained by Refact AI.
 * [Tabby](https://tabby.tabbyml.com/): Open source, locally-hosted coding assistant framework. Can use Starcoder or CodeLLaMA.
 * [DuetAI for Developers](https://cloud.google.com/blog/products/application-development/introducing-duet-ai-for-developers): Coding assistance based on PaLM as part of Google’s DuetAI offering. 
 * [Gorilla LLM](https://gorilla.cs.berkeley.edu/): LLM model from researchers at UC Berkeley trained to generate API calls across many different platforms and tools.
+* [Deepseek Coder](https://deepseekcoder.github.io): Series of bilinginual English/Chinese coding LLMs from DeepSeek AI, trained from scratch on 2T tokens, with a composition of 87% code and 13% natural language.
 
 
 #### Mathematics
@@ -506,7 +511,7 @@ Thanks, and enjoy!
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
-* [Yi](https://01.ai/): Open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B.
+* [Yi](https://01.ai/): Bilingual open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B.
 * [ML Foundations](https://github.com/mlfoundations): Github repo for Ludwig Schmidt from University of Washington, includes open versions of multimodal models Flamingo & CLIP
 
 
@@ -542,6 +547,8 @@ Thanks, and enjoy!
 * [Guardrails](https://docs.guardrailsai.com/): Python library for assurance and validation of the outputs of LLMs. In alpha.
 * [Detoxify](https://github.com/unitaryai/detoxify): Toxic comment classification models based on BERT.
 * [Artificial Intelligence and Data Act (AIDA) Companion Document](https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act-aida-companion-document): High level details on the proposed Canadian AI legislation as part of [Bill C-27](https://www.parl.ca/DocumentViewer/en/44-1/bill/C-27/first-reading).
+* [Evaluating social and ethical risks from generative AI](https://deepmind.google/discover/blog/evaluating-social-and-ethical-risks-from-generative-ai/): Blog post and source paper from Deepmind on framework for risks from GenAI.
+* [The Alignment Handbook](https://github.com/huggingface/alignment-handbook): From the Hugging Face team, provides a series robust training recipes that span the whole LLM pipeline for ensuring model alignment.
 
 
 ### Costing
@@ -574,8 +581,10 @@ Thanks, and enjoy!
 * [Stanford CS224N](https://web.stanford.edu/class/cs224n/): NLP with Deep Learning: NLP with Deep Learning, Youtube [playlist of lectures is here](https://youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4&feature=shared).
 * [Stanford CS25: Transformers United V3](https://web.stanford.edu/class/cs25/): Stanford course breaking down how transformers work, and dive deep into the different kinds of transformers and how they're applied in different fields. The associated playlist with all the lectures [is available on Youtube](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM).
 * [CS685: Advanced Natural Language Processing (Spring 2023)](https://youtube.com/playlist?list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj&feature=shared): Content of this graduate-level course from the University of Massachusetts Amherst - lots of content on LLMs and Transformers. [Full course materials here](https://people.cs.umass.edu/~miyyer/cs685/schedule.html).
+* [CS5785 Applied Machine Learning](https://github.com/kuleshov/cornell-cs5785-2023-applied-ml): Lecture notes and slides from Cornell’s Applied Machine Learning Course, Fall 2023.
 * [Hugging Face’s NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1\): With a focus on using the transformers library and transformer models.
 * [LLM University](https://docs.cohere.com/docs/llmu): Documentation and free learning on LLMs from Cohere.
+* [Large Language Model Course](https://github.com/mlabonne/llm-course): A microcourse composed of Colab notebooks and associated blog posts from Maxime Labonne @ JPMorganChase.
 * [Advanced NLP with spaCy](https://course.spacy.io/en/): Course from Ines Montani, one of the course developers at spaCY, one using it. Includes data analysis, pipelines, and fitting models.
 * [Applied Language Technology](https://applied-language-technology.mooc.fi): MOOC from the University of Helsinki on NLP, focusing on using spaCy.
 * [LangChain for LLM Application Development by Andrew Ng](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/): Apply LLMs to your proprietary data to build personal assistants and specialized chatbots.
@@ -589,6 +598,7 @@ Thanks, and enjoy!
 * [Natural Language Processing with Large Language Models](https://github.com/jonkrohn/NLP-with-LLMs): Technical notebooks here from Jon Krohn’s half-day ODSC East workshop. Includes using transformers library for fine-tuning with T5 and using OpenAI API.
 * [Spark NLP Workshops](https://github.com/JohnSnowLabs/spark-nlp-workshop): A lot of resources here on all things SparkNLP, including code in Jupyter notebooks for different applications of SparkNLP to many use cases. 
 * [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners#generative-ai-for-beginners---a-course): Free online course from Microsoft
+* [Anaconda Learning](https://freelearning.anaconda.cloud/): Free learning courses from Anaconda on Jupyter and conda basics.
 
 
 ### Books
@@ -625,6 +635,7 @@ Thanks, and enjoy!
 * [Practical Large Language Models - Open Book](https://sherpa-ai.readthedocs.io/en/latest/Open%20Book/): Programmatically generated open book compiling summaries talks and events from aggregate intellect
 * [NLP Progress](https://nlpprogress.com/): Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.
 * [Awesome Legal NLP](https://github.com/maastrichtlawtech/awesome-legal-nlp): Compilation of links to NLP resources related to the field of law and legislation.
+* [Awesome LLM Fine-tuning](https://github.com/Curated-Awesome-Lists/awesome-llms-fine-tuning): Github awesome list of fine-tuning related resources.
 * [Instruction Tuning Papers](https://github.com/SinclairCoder/Instruction-Tuning-Papers): Repo with a list of papers related to instruction tuning LLMs. 
 * List of foundation LLMS: [https://github.com/zhengzangw/awesome-huge-models#language-model](https://github.com/zhengzangw/awesome-huge-models#language-model)
 * [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM): Curated list of important LLM papers, frameworks, resources, and other lists. Actively updated. 
