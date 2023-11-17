@@ -46,6 +46,7 @@ Thanks, and enjoy!
 * [LAION 5B](https://laion.ai/blog/laion-5b/): Massive dataset of images and captions from Large-scale Artificial Intelligence Open Network (LAION), used to train Stable Diffusion.
 * [Databricks Dolly 15K](databricks/databricks-dolly-15k): Instruction dataset compiled internally by Databricks, used to train the Dolly models based on the Pythia LLMs.
 * [Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/): Large image & caption pair dataset from Google research.
+* [Instruction Tuning Volume 1](https://nlpnewsletter.substack.com/p/instruction-tuning-vol-1): List of popular instruction-tuning datasets from Sebastian Ruder
 
 
 ### Data Acquistion
@@ -159,6 +160,8 @@ Thanks, and enjoy!
 * [XTREME](https://sites.research.google/xtreme):  Comprehensive benchmark for cross-lingual transfer learning on a diverse set of languages and tasks from researchers at Google and Carnegie Mellon
 * [Belebele](https://github.com/facebookresearch/belebele): Multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants from Meta, based upon the Flores dataset
 * [OpenNMT](https://opennmt.net): Open neural machine translation models in Pytorch and Tensorflow. Documentation for [python here](https://opennmt.net/OpenNMT-py/).
+* [FinGPT-3](https://turkunlp.org/gpt3-finnish): GPT model trained in Finnish, from a research group at the University of Turku, Finland.
+* [Jais 13-B](https://www.inceptioniai.org/jais/): Bilingual Arabic/English model based on GPT-3 architecture, from Inception AI / Core42 group in UAE.
 
 
 ### Natural Language Inference (NLI) and Natural Language Understanding (NLU)
@@ -285,6 +288,7 @@ Thanks, and enjoy!
 * [Kosmos-G: Generating Images in Context with Multimodal Large Language Models](https://xichenpan.com/kosmosg/): Model from Microsoft Research for generating variations of images given text prompts with minimal to no training.
 * [Multimodal LLMs by Chip Hyugen](https://huyenchip.com/2023/10/10/multimodal.html): A good post on multimodal LLMs, including foundational / historical models leading up to SOTA like CLIP and Flamingo.
 * [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/): A kind of open-source GPT4-V, chat / instruction agent able to work with image data, from researchers at Microsoft, U of Wisconsin, and Columbia. [Demo site is here](https://llava.hliu.cc/).
+* [SPHINX](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX): Multimodal, multi-task LLM released by researchers at the University of Shanghai. [Demo is here](https://imagebind-llm.opengvlab.com/).
 
 
 #### Audio
@@ -309,6 +313,7 @@ Thanks, and enjoy!
 * [Brain2Music](https://google-research.github.io/seanet/brain2music/): Research from Google for using fMRI scans to reconstruct audio perceived by the listener. 
 * [WavJourney: Compositional Audio Creation with Large Language Models](https://audio-agi.github.io/WavJourney_demopage): An approach for generating audio combining generative text for scriptwriting plus audio generation models.
 * [XTTS](https://coqui.ai/blog/tts/xtts_taking_tts_to_the_next_level): Voice cloning model specifically designed with game creators in mind from coqui.ai. Available in a [Hugging Face space here](https://huggingface.co/spaces/coqui/xtts-streaming).
+* [The Future of Music - How Generative AI Is Transforming the Music Industry](https://a16z.com/the-future-of-music-how-generative-ai-is-transforming-the-music-industry/): Blog post from Anderssen-Horowitz covering a lot of recent developments in the intersection of the music industry and GenAI tools.
 
 
 #### Video and Animation
@@ -439,6 +444,7 @@ Thanks, and enjoy!
 * [Tree of Thoughts (ToT)](https://github.com/princeton-nlp/tree-of-thought-llm): LLM reasoning process as a tree, where each node is an intermediate "thought" or coherent piece of reasoning that serves as a step towards the final solution.
 * [GPT Engineer](https://github.com/AntonOsika/gpt-engineer): Python framework for attempting to get GPT to write code and build software.
 * [MetaGPT - The Multi-Agent Framework](https://github.com/geekan/MetaGPT): Agent framework where different assigned roles (product managers, architects, project managers, engineers) are used for building different products (user stories, competitive analysis, requirements, data structures, etc.) given a requirement.
+* [OpenGPTs](https://github.com/langchain-ai/opengpts): Open source effort from Langchain to create a similar experience to OpenAI's GPTs with greater flexibility and choice.
 
 
 ### Application Frameworks:
@@ -490,6 +496,7 @@ Thanks, and enjoy!
 * [Skypilot](https://github.com/skypilot-org/skypilot): SkyPilot is a framework for running LLMs, AI, and batch jobs on any cloud.
 * [7 Frameworks for Serving LLMs](https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407): Medium post comparing different LLM serving frameworks.
 * [Deploying custom fine-tuned LLMs on Vertex AI](https://medium.com/@ashika.umanga/deploying-custom-fine-tuned-llms-on-vertex-ai-6f96752f9fc1#:~:text=These%20can%20be%20easily%20deployed%20and%20used%20for%20inference.&text=Models%20in%20the%20Registry%20are,traffic-split%20can%20be%20configured): Medium post with a how-to on serving LLMs via GCP and Vertex AI
+* [Ollama](https://ollama.ai/): Host LLMs locally, includes models like LLaMA, Mistral, Zephyr, Falcon, etc.
 
 
 ### Preprocessing and Tokenization
@@ -512,6 +519,8 @@ Thanks, and enjoy!
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
 * [Yi](https://01.ai/): Bilingual open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B.
+* [Poro 34B](https://huggingface.co/LumiOpen/Poro-34B?utm_source=substack&utm_medium=email): Fully open-source bilingual Finnish & English model trained in collaboration between Finnish startup Silo AI and the TurkuNLP group of the University of Turku.
+* [Nemotron-3 8B](https://developer.nvidia.com/blog/nvidia-ai-foundation-models-build-custom-enterprise-chatbots-and-co-pilots-with-production-ready-llms/): Family of “semi-open” (requires accepting a license) LLMs from NVIDIA, optimized for their Nemo framework. Find them all on the [collections page](https://huggingface.co/collections/nvidia/nemotron-3-8b-6553adeb226f6ab4ffc356f9) on HF.
 * [ML Foundations](https://github.com/mlfoundations): Github repo for Ludwig Schmidt from University of Washington, includes open versions of multimodal models Flamingo & CLIP
 
 
@@ -613,6 +622,8 @@ Thanks, and enjoy!
 * [Introduction to Modern Statistics](https://openintro-ims2.netlify.app/): Free online textbook on statistics.
 * [Dive into Deep Learning](http://d2l.ai/): Interactive deep learning book with code, math, and discussions implemented with multiple frameworks. Chapters 9-11 focus on RNNs & Transformers and 15-16 on NLP applications.
 * [Understanding Deep Learning](https://udlbook.github.io/udlbook/): by Simon J.D. Prince, free online and includes all code in Jupyter notebooks. Chapter 12 covers the transformer architecture.
+* [Natural Language Processing in Action, Second Edition](https://www.manning.com/books/natural-language-processing-in-action-second-edition): by Hobson Lane and Maria Dyshel from Manning. Currently a MEAP set for release in Jan 2024.
+* [Natural Language Processing with Transformers](https://transformersbook.com/): by Lewis Tunstall, Leandro von Werra, and Thomas Wolf. From O’Reilly. You can view the code associated with the book in the [Github repo here](https://github.com/nlp-with-transformers/notebooks).
 
 
 ### Surveys
