@@ -236,6 +236,7 @@ Thanks, and enjoy!
 * [LoRA: Low-Rank Adaptation of Large Language Models](https://github.com/microsoft/LoRA): Official Github repo for LoRA from Microsoft.
 * [Low-RanK Adapters (LoRA)](https://huggingface.co/docs/peft/conceptual_guides/lora): Conceptual guide from Hugging Face.
 * [QLoRA](https://github.com/artidoro/qlora): Efficient Finetuning of Quantized LLMs, official Github repo. The method that produced Guanaco from LLaMA. 
+* [Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation)](https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms): List of tips and learnings based on using LoRA/QLoRA from Sebastian Raschka
 * [Instruction Tuning Volume 1:](https://nlpnewsletter.substack.com/p/instruction-tuning-vol-1) Summary of instruction-tuning and links to some resources from Sebastian Ruder’s NLP newsletter.
 * [Finetuning LLMs with LoRA and QLoRA: Insights from Hundreds of Experiments](https://lightning.ai/pages/community/lora-insights): Results of many experiments with model fine tuning using LoRA and QLoRA from Lightning AI, on memory and compute usage, training time, etc.
 * [Overview of PEFT: State-of-the-art Parameter-Efficient Fine-Tuning](https://www.kdnuggets.com/overview-of-peft-stateoftheart-parameterefficient-finetuning): Article from KDNuggets with example code using LLaMA 7B
@@ -314,6 +315,7 @@ Thanks, and enjoy!
 * [WavJourney: Compositional Audio Creation with Large Language Models](https://audio-agi.github.io/WavJourney_demopage): An approach for generating audio combining generative text for scriptwriting plus audio generation models.
 * [XTTS](https://coqui.ai/blog/tts/xtts_taking_tts_to_the_next_level): Voice cloning model specifically designed with game creators in mind from coqui.ai. Available in a [Hugging Face space here](https://huggingface.co/spaces/coqui/xtts-streaming).
 * [The Future of Music - How Generative AI Is Transforming the Music Industry](https://a16z.com/the-future-of-music-how-generative-ai-is-transforming-the-music-industry/): Blog post from Anderssen-Horowitz covering a lot of recent developments in the intersection of the music industry and GenAI tools.
+* [StyleTTS2](https://github.com/yl4579/StyleTTS2): Diffusion and adversarial model for realistic speech synthesis (TTS). Audio samples and comparisons with previous models are [here](https://styletts2.github.io/).
 
 
 #### Video and Animation
@@ -624,6 +626,7 @@ Thanks, and enjoy!
 * [Understanding Deep Learning](https://udlbook.github.io/udlbook/): by Simon J.D. Prince, free online and includes all code in Jupyter notebooks. Chapter 12 covers the transformer architecture.
 * [Natural Language Processing in Action, Second Edition](https://www.manning.com/books/natural-language-processing-in-action-second-edition): by Hobson Lane and Maria Dyshel from Manning. Currently a MEAP set for release in Jan 2024.
 * [Natural Language Processing with Transformers](https://transformersbook.com/): by Lewis Tunstall, Leandro von Werra, and Thomas Wolf. From O’Reilly. You can view the code associated with the book in the [Github repo here](https://github.com/nlp-with-transformers/notebooks).
+* [Applied Text Analysis with Python](https://www.oreilly.com/library/view/applied-text-analysis/9781491963036/): by Benjamin Bengfort, Rebecca Bilbro, Tony Ojeda, from O’Reilly. Aimed at Python developers breaking into NLP and focuses on building product and includes using Spark.
 
 
 ### Surveys
