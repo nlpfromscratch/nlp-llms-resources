@@ -189,6 +189,7 @@ Thanks, and enjoy!
 * [How AI chatbots like ChatGPT or Bard work – visual explainer](https://www.theguardian.com/technology/ng-interactive/2023/nov/01/how-ai-chatbots-like-chatgpt-or-bard-work-visual-explainer): A good short visual explainer from The Guardian on how embeddings works and make LLMs function.
 * [Generative AI Primer](https://er.educause.edu/articles/2023/8/a-generative-ai-primer): A primer for the layperson on generative AI and LLMs, from Educause Review - lots of links to source materials here and well-written. 
 * [Understanding Causal LLMs, Masked LLM’s, and Seq2Seq: A Guide to Language Model Training Approaches](https://medium.com/@tom_21755/understanding-causal-llms-masked-llm-s-and-seq2seq-a-guide-to-language-model-training-d4457bbd07fa): Medium post breaking down the different types of language modeling training approaches, causal language modeling vs masked language modeling (CLM vs MLM).
+* [[1 hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g): Great short talk by Andrej Karpathy himself, covering the fundamentals of what LLMs are and how they are trained, demonstrations of GPT-4’s capabilities, and adversarial attacks & jailbreaks.
 
 
 ### Foundation Models
@@ -281,6 +282,7 @@ Thanks, and enjoy!
 * [Stable Diffusion](https://stability.ai/stablediffusion): The open model from Stability AI that brought AI-generated images to the forefront. Official [Github repo here](https://github.com/CompVis/stable-diffusion), and (one of many) [Hugging Face Space](https://huggingface.co/spaces/stabilityai/stable-diffusion) here (for SD 2.1).
 * [Finetune Stable Diffusion Models with DDPO via TRL](https://huggingface.co/blog/trl-ddpo): Blog post from Hugging Face on fine-tuning SD with reinforcement learning and Denoising Diffusion Policy Optimization (DDPO).
 * [Fast Stable Diffusion XL on TPU v5e](https://huggingface.co/spaces/google/sdxl): Hugging Face space with hosted SDXL on TPU for free and fast generation of high quality (1024x1024) images.
+* [SDXL in 4 steps with Latent Consistency LoRAs](https://huggingface.co/blog/lcm_lora): Distilling Stable Diffusion XL with Latent Consistency LoRA for highly compute-optimized synthetic image generation.
 * [DeciDiffusion](https://huggingface.co/Deci/DeciDiffusion-v1-0): Optimized SD 1.5 model from Deci.ai
 * [Segmind-Distill-SD](https://blog.segmind.com/introducing-segmind-ssd-1b/): Distilled Stable Diffusion model from Segmind, claims 50% smaller and 60% faster. [Github repo here](https://github.com/segmind/distill-sd) & [Hugging Face model](https://huggingface.co/segmind/SSD-1B) here.  
 * [Emu: Enhancing Image Generation Models Using Photogenic Needles in a Haystack AI](https://ai.meta.com/research/publications/emu-enhancing-image-generation-models-using-photogenic-needles-in-a-haystack): Fine-tuning of Stable Diffusion from Meta research focusing on high-quality images.
@@ -323,7 +325,6 @@ Thanks, and enjoy!
 
 
 * [Generative Image Dynamics](https://generative-dynamics.github.io/): Model from researchers at Google for creating looping images or interactive images from still ones. 
-* IDEFICS: Image-aware Decoder Enhanced à la Flamingo with Interleaved Cross-attentionS - based on Flamingo
 * [IDEFICS](https://huggingface.co/blog/idefics): Open multimodal text and image model from Hugging Face based on [Flamingo](https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model NeRF (), similar to GPT4-V.
 * [NeRF](https://www.matthewtancik.com/nerf); Neural Radiance fields creates multiple views of a scene from a single image. 
 * [ZipNeRF](https://jonbarron.info/zipnerf/): Building on NeRF with more advanced techniques and impressive results, generating drone-style “fly-by” videos from still images of settings.
@@ -332,6 +333,8 @@ Thanks, and enjoy!
 * [Replay](https://blog.genmo.ai/log/replay-ai-video): Video (animated picture) generating model from Genmo AI 
 * [Hotshot XL](https://www.hotshot.co/): Text to animated GIF generator based on Stable Diffusion XL. [Github](https://github.com/hotshotco/Hotshot-XL) and [Hugging Face model page](https://huggingface.co/hotshotco/Hotshot-XL).
 * [ModelScope](https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis): Open model for text-to-video generation from Alibaba research
+* [Stable Video Diffusion](https://stability.ai/news/stable-video-diffusion-open-ai-video-model): Generative video diffusion model  from Stability AI.
+* [Pika Labs](https://pika.art): AI startup for video creation with $55 million in backing.
 
 
 #### Other Multimodal LLM Applications
@@ -593,6 +596,7 @@ Thanks, and enjoy!
 * [Stanford CS25: Transformers United V3](https://web.stanford.edu/class/cs25/): Stanford course breaking down how transformers work, and dive deep into the different kinds of transformers and how they're applied in different fields. The associated playlist with all the lectures [is available on Youtube](https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM).
 * [CS685: Advanced Natural Language Processing (Spring 2023)](https://youtube.com/playlist?list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj&feature=shared): Content of this graduate-level course from the University of Massachusetts Amherst - lots of content on LLMs and Transformers. [Full course materials here](https://people.cs.umass.edu/~miyyer/cs685/schedule.html).
 * [CS5785 Applied Machine Learning](https://github.com/kuleshov/cornell-cs5785-2023-applied-ml): Lecture notes and slides from Cornell’s Applied Machine Learning Course, Fall 2023.
+* [CS388: Natural Language Processing](https://www.cs.utexas.edu/~gdurrett/courses/online-course/materials.html): University of Texas at Austin offers its Master-level NLP course online CS388 by Prof Greg Durrett from the University of Texas at Austin. Videos for lectures are in a [Youtube playlist here](https://www.youtube.com/playlist?list=PLofp2YXfp7TZZ5c7HEChs0_wfEfewLDs7).
 * [Hugging Face’s NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1\): With a focus on using the transformers library and transformer models.
 * [LLM University](https://docs.cohere.com/docs/llmu): Documentation and free learning on LLMs from Cohere.
 * [Large Language Model Course](https://github.com/mlabonne/llm-course): A microcourse composed of Colab notebooks and associated blog posts from Maxime Labonne @ JPMorganChase.
@@ -610,6 +614,7 @@ Thanks, and enjoy!
 * [Spark NLP Workshops](https://github.com/JohnSnowLabs/spark-nlp-workshop): A lot of resources here on all things SparkNLP, including code in Jupyter notebooks for different applications of SparkNLP to many use cases. 
 * [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners#generative-ai-for-beginners---a-course): Free online course from Microsoft
 * [Anaconda Learning](https://freelearning.anaconda.cloud/): Free learning courses from Anaconda on Jupyter and conda basics.
+* [Weights & Biases Courses](https://www.wandb.courses): Free LLM-related courses from Weights & Biases using their platform (requires email signup)
 
 
 ### Books
