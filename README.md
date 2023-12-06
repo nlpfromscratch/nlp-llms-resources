@@ -318,6 +318,7 @@ Thanks, and enjoy!
 * [XTTS](https://coqui.ai/blog/tts/xtts_taking_tts_to_the_next_level): Voice cloning model specifically designed with game creators in mind from coqui.ai. Available in a [Hugging Face space here](https://huggingface.co/spaces/coqui/xtts-streaming).
 * [The Future of Music - How Generative AI Is Transforming the Music Industry](https://a16z.com/the-future-of-music-how-generative-ai-is-transforming-the-music-industry/): Blog post from Anderssen-Horowitz covering a lot of recent developments in the intersection of the music industry and GenAI tools.
 * [StyleTTS2](https://github.com/yl4579/StyleTTS2): Diffusion and adversarial model for realistic speech synthesis (TTS). Audio samples and comparisons with previous models are [here](https://styletts2.github.io/).
+* [Qwen-Audio](https://qwen-audio.github.io/Qwen-Audio/): Multimodal audio understanding LLM from Alibaba Group
 
 
 #### Video and Animation
@@ -395,6 +396,7 @@ Thanks, and enjoy!
 * [Galactica](https://www.technologyreview.com/2022/11/18/1063487/meta-large-language-model-ai-only-survived-three-days-gpt-3-science/): (MIT Blog Post) Learnings from Meta’s Galactica LLM, trained on scientific research papers.
 * [BioGPT](https://github.com/microsoft/BioGPT): Generative Pre-trained Transformer for Biomedical Text Generation and Mining, open LLM from Microsoft Research trained on PubMeb papers.
 * [MedPALM](https://sites.research.google/med-palm/): A large language model from Google Research, designed for the medical domain.
+* [Meditron](https://arxiv.org/abs/2311.16079): Fine-tuned LLaMAs on medical data from Swiss university EPFL. HuggingFace space [here](https://huggingface.co/epfl-llm/meditron-70b). Github [here](https://github.com/epfLLM/meditron).
 
 
 ### Vector Databases and Frameworks
@@ -535,6 +537,7 @@ Thanks, and enjoy!
 
 * [BERTViz:](https://github.com/jessevig/bertviz) Interactive tool for visualizing attention in Transformer language models such as BERT, GPT2, or T5, based in Python and can be run in Colab.
 * [Jay Alammar’s Blog](https://jalammar.github.io/): Lots of great posts here visualizing and explaining LLMs such as [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) and [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/)
+* [LLM Visualization](https://bbycroft.net/llm): Interactive 3-D visualizations of nanoGPT, GPT-2, and GPT-3, with explanation walking through each piece of the model in detail.
 
 
 ### Prompt Engineering
@@ -660,6 +663,22 @@ Thanks, and enjoy!
 * [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM): Curated list of important LLM papers, frameworks, resources, and other lists. Actively updated. 
 * [LLM Survey:](https://github.com/RUCAIBox/LLMSurvey) A collection of papers and resources related to Large Language Models.
 * [Uni-LM](https://github.com/microsoft/unilm): Aggregate repo of LLM and foundation model work across Microsoft Research. They also have a repo specifically for [LLMOps](https://github.com/microsoft/lmops).
+
+
+### Newsletters
+
+These are not referral links.
+
+
+
+* [GPTRoad](https://www.gptroad.com/subscribe): Daily no-nonsense newsletter covering developments in the AI / LLM space. They also [have a site](https://www.gptroad.com/) following the HackerNews template.
+* [TLDR AI](https://tldr.tech/ai): Daily newsletter with little fluff, covering developments in AI news.
+* [AI Tool Report](https://aitoolreport.beehiiv.com/): Newsletter from Respell, with AI headlines, jobs,  
+* [The Memo from Lifearchitect.ai](https://lifearchitect.ai/memo/): Bi-weekly newsletter with future-focused updates on developments in the LLM-space.
+* [AI Breakfast](https://aibreakfast.beehiiv.com/): Curated weekly analysis of the latest AI projects, products, and news
+* [The Rundown AI](https://www.therundown.ai/): Another daily AI newsletter (400K+ readers) 
+* [Interconnects](https://www.interconnects.ai/): LLM / AI newsletter for more technical readers.
+* [The Neuron](https://www.theneurondaily.com/): Another AI newsletter with cutesy and light tone.
 
 
 ### Papers (WIP)
