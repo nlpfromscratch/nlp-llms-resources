@@ -270,6 +270,9 @@ Thanks, and enjoy!
 * [OpenAI Cookbook:](https://cookbook.openai.com/) Recipes and tutorial posts for working and building with OpenAI, all in one place. Example code in the [Github repo](https://github.com/openai/openai-cookbook).
 * [SuperWhisper](https://superwhisper.com/): Local usage of Whisper model on Mac OS, allows you to speak commands to your machine and have them transcribed (all locally).
 * [Cursor](https://cursor.sh/): Locally installable code editor with autocomplete, chat, etc. backed by OpenAI GPT3.5/4.
+* [llama.cpp](https://github.com/ggerganov/llama.cpp): Inference from Meta’s LLaMA model in pure C/C++. Python integration through [llama-cpp-python](https://llama-cpp-python.readthedocs.io/en/latest/).
+* [Ollama](https://ollama.ai/): Host LLMs locally, includes models like LLaMA, Mistral, Zephyr, Falcon, etc.
+* [llamafile](llamafile): Framework for LLMs as single executable files for local execution and development work, examples of one-liners and use from its creator here [Bash One-Liners for LLMs](https://justine.lol/oneliners/)
 
 
 ### Multimodal LLMs
@@ -280,6 +283,7 @@ Thanks, and enjoy!
 
 
 * [Stable Diffusion](https://stability.ai/stablediffusion): The open model from Stability AI that brought AI-generated images to the forefront. Official [Github repo here](https://github.com/CompVis/stable-diffusion), and (one of many) [Hugging Face Space](https://huggingface.co/spaces/stabilityai/stable-diffusion) here (for SD 2.1).
+* [Deepfloyd Lab](https://www.deepfloyd.ai/): Multimodal research AI lab that is a part of Stability AI, has released the [IF Pixel Diffusion model](https://stability.ai/news/deepfloyd-if-text-to-image-model), which does much better on complex image generations such as those involving text.
 * [Finetune Stable Diffusion Models with DDPO via TRL](https://huggingface.co/blog/trl-ddpo): Blog post from Hugging Face on fine-tuning SD with reinforcement learning and Denoising Diffusion Policy Optimization (DDPO).
 * [Fast Stable Diffusion XL on TPU v5e](https://huggingface.co/spaces/google/sdxl): Hugging Face space with hosted SDXL on TPU for free and fast generation of high quality (1024x1024) images.
 * [SDXL in 4 steps with Latent Consistency LoRAs](https://huggingface.co/blog/lcm_lora): Distilling Stable Diffusion XL with Latent Consistency LoRA for highly compute-optimized synthetic image generation.
@@ -326,7 +330,7 @@ Thanks, and enjoy!
 
 
 * [Generative Image Dynamics](https://generative-dynamics.github.io/): Model from researchers at Google for creating looping images or interactive images from still ones. 
-* [IDEFICS](https://huggingface.co/blog/idefics): Open multimodal text and image model from Hugging Face based on [Flamingo](https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model), similar to GPT4-V.
+* [IDEFICS](https://huggingface.co/blog/idefics): Open multimodal text and image model from Hugging Face based on [Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/), similar to GPT4-V.
 * [NeRF](https://www.matthewtancik.com/nerf); Neural Radiance fields creates multiple views of a scene from a single image. 
 * [ZipNeRF](https://jonbarron.info/zipnerf/): Building on NeRF with more advanced techniques and impressive results, generating drone-style “fly-by” videos from still images of settings.
 * [Pegasus-1](https://app.twelvelabs.io/blog/introducing-pegasus-1): Multimodal model from TwelveLabs for describing videos and video-to-text generation.
@@ -503,7 +507,6 @@ Thanks, and enjoy!
 * [Skypilot](https://github.com/skypilot-org/skypilot): SkyPilot is a framework for running LLMs, AI, and batch jobs on any cloud.
 * [7 Frameworks for Serving LLMs](https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407): Medium post comparing different LLM serving frameworks.
 * [Deploying custom fine-tuned LLMs on Vertex AI](https://medium.com/@ashika.umanga/deploying-custom-fine-tuned-llms-on-vertex-ai-6f96752f9fc1#:~:text=These%20can%20be%20easily%20deployed%20and%20used%20for%20inference.&text=Models%20in%20the%20Registry%20are,traffic-split%20can%20be%20configured): Medium post with a how-to on serving LLMs via GCP and Vertex AI
-* [Ollama](https://ollama.ai/): Host LLMs locally, includes models like LLaMA, Mistral, Zephyr, Falcon, etc.
 
 
 ### Preprocessing and Tokenization
@@ -566,6 +569,7 @@ Thanks, and enjoy!
 * [Artificial Intelligence and Data Act (AIDA) Companion Document](https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act-aida-companion-document): High level details on the proposed Canadian AI legislation as part of [Bill C-27](https://www.parl.ca/DocumentViewer/en/44-1/bill/C-27/first-reading).
 * [Evaluating social and ethical risks from generative AI](https://deepmind.google/discover/blog/evaluating-social-and-ethical-risks-from-generative-ai/): Blog post and source paper from Deepmind on framework for risks from GenAI.
 * [The Alignment Handbook](https://github.com/huggingface/alignment-handbook): From the Hugging Face team, provides a series robust training recipes that span the whole LLM pipeline for ensuring model alignment.
+* [Decoding Intentions](https://cset.georgetown.edu/publication/decoding-intentions/): Artificial Intelligence and Costly Signals: The paper from Helen Toner on the OpenAI board that ruffled Sam Altan’s feathers.
 
 
 ### Costing
