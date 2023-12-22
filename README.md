@@ -339,6 +339,7 @@ Thanks, and enjoy!
 * [Hotshot XL](https://www.hotshot.co/): Text to animated GIF generator based on Stable Diffusion XL. [Github](https://github.com/hotshotco/Hotshot-XL) and [Hugging Face model page](https://huggingface.co/hotshotco/Hotshot-XL).
 * [ModelScope](https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis): Open model for text-to-video generation from Alibaba research
 * [Stable Video Diffusion](https://stability.ai/news/stable-video-diffusion-open-ai-video-model): Generative video diffusion model  from Stability AI.
+* [VideoPoet](https://sites.research.google/videopoet/): Synthetic video generation from Google Research, taking a variety of inputs (text, image, video).
 * [Pika Labs](https://pika.art): AI startup for video creation with $55 million in backing.
 
 
@@ -346,6 +347,7 @@ Thanks, and enjoy!
 
 
 
+* [Stable Zero123](https://stability.ai/news/stable-zero123-3d-generation): 3D image generation model from Stability AI building on the Zero123-XL model. Weights available for non-commercial use on [HF here](https://huggingface.co/stabilityai/stable-zero123).
 * [DreamBooth3D](https://dreambooth3d.github.io/): Approach for generating high-quality custom 3D models from source images. 
 * [MVDream:](https://mv-dream.github.io/gallery_0.html) 3D model generation from Diffusion from researchers at ByteDance.
 * [TADA! Text to Animatable Digital Avatars](https://tada.is.tue.mpg.de): Research on models for synthetic generation of 3D avatars from text prompts, from researchers in China and Germany
@@ -399,7 +401,7 @@ Thanks, and enjoy!
 
 * [Galactica](https://www.technologyreview.com/2022/11/18/1063487/meta-large-language-model-ai-only-survived-three-days-gpt-3-science/): (MIT Blog Post) Learnings from Meta’s Galactica LLM, trained on scientific research papers.
 * [BioGPT](https://github.com/microsoft/BioGPT): Generative Pre-trained Transformer for Biomedical Text Generation and Mining, open LLM from Microsoft Research trained on PubMeb papers.
-* [MedPALM](https://sites.research.google/med-palm/): A large language model from Google Research, designed for the medical domain.
+* [MedPALM](https://sites.research.google/med-palm/): A large language model from Google Research, designed for the medical domain. Google has continued this work with [MedLM](https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry),
 * [Meditron](https://arxiv.org/abs/2311.16079): Fine-tuned LLaMAs on medical data from Swiss university EPFL. HuggingFace space [here](https://huggingface.co/epfl-llm/meditron-70b). Github [here](https://github.com/epfLLM/meditron).
 
 
@@ -551,6 +553,7 @@ Thanks, and enjoy!
 * [Prompts for Education: Enhancing Productivity & Learning](https://github.com/microsoft/prompts-for-edu): Github repo with resources on using generative AI and prompting in educational settings. 
 * [How I Think About Prompt Engineering](https://fchollet.substack.com/p/how-i-think-about-llm-prompt-engineering): Post by Francis Chollet (creator of Keras) relating prompting back to programming paradigms.
 * [PromptIDE](https://x.ai/prompt-ide): Development environment and paradigm for prompt programming from xAI using their Grok model.
+* [Prompt Engineering Guide from OpenAI:](https://platform.openai.com/docs/guides/prompt-engineering) Official Guide from OpenAPI on prompt engineering best practices (December 2023).
 
 
 ### Ethics, Bias, and Legal
