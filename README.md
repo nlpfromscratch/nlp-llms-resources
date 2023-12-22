@@ -553,8 +553,8 @@ Thanks, and enjoy!
 * [Prompts for Education: Enhancing Productivity & Learning](https://github.com/microsoft/prompts-for-edu): Github repo with resources on using generative AI and prompting in educational settings. 
 * [How I Think About Prompt Engineering](https://fchollet.substack.com/p/how-i-think-about-llm-prompt-engineering): Post by Francis Chollet (creator of Keras) relating prompting back to programming paradigms.
 * [PromptIDE](https://x.ai/prompt-ide): Development environment and paradigm for prompt programming from xAI using their Grok model.
-* [Prompt Engineering Guide from OpenAI:](https://platform.openai.com/docs/guides/prompt-engineering) Official Guide from OpenAPI on prompt engineering best practices (December 2023).
-
+* [Prompt Engineering Guide from OpenAI](https://platform.openai.com/docs/guides/prompt-engineering): Official Guide from OpenAI on prompt engineering best practices (December 2023).
+* [Introduction to prompt design](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design): Anthropic guide for prompt engineering with Claude.
 
 ### Ethics, Bias, and Legal
 
