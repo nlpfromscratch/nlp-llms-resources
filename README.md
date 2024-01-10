@@ -47,6 +47,7 @@ Thanks, and enjoy!
 * [Databricks Dolly 15K](databricks/databricks-dolly-15k): Instruction dataset compiled internally by Databricks, used to train the Dolly models based on the Pythia LLMs.
 * [Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/): Large image & caption pair dataset from Google research.
 * [Instruction Tuning Volume 1](https://nlpnewsletter.substack.com/p/instruction-tuning-vol-1): List of popular instruction-tuning datasets from Sebastian Ruder
+* [Objaverse](https://objaverse.allenai.org/): Massive dataset of annotated 3D objects (with associated text labels) from Allen Institute. Comes in two sizes: 1.0 (800K objects) and XL (~10M objects).
 
 
 ### Data Acquistion
@@ -213,6 +214,19 @@ Thanks, and enjoy!
 * [What is Temperature in NLP?](https://lukesalamone.github.io/posts/what-is-temperature/) A short explainer on temperature with a nice accompanying interactive visual, showing its effect on output probabilities.
 
 
+### Web-based Chat Clients
+
+
+
+* [ChatGPT](https://chat.openai.com/): Obviously. From OpenAI. Free, but requires an account.
+* [Perplexity Labs](https://labs.perplexity.ai/): Free, web-based LLM chat client, no account required. Includes popular models such as versions of LLaMA and Mistral as well as Perplexity’s own pplx model.
+* [HuggingChat](https://huggingface.co/chat): Chat client from HuggingFace, includes LLaMA and Mistral clients as well as OpenChat. Free for short conversations (in guest mode), account required for longer use.
+* [DeepInfra Chat](https://deepinfra.com/chat): Includes LLaMA and Mistral, even Mixtral 8x7B! Free to use.
+* [Pi](https://pi.ai/talk): Conversational LLM from Inflection. No account required.
+* [Poe](https://poe.com/): AI assistant from Quora, allows interacting with OpenAI, Anthropic, LLaMA and Google models. Account required.
+* [Copilot](https://copilot.microsoft.com/): Or is it Bing Chat? The lines are blurry. Backed by GPT, allows using GPT-4 on mobile ([iOS](https://apps.apple.com/us/app/microsoft-copilot/id6472538445), [Android](https://play.google.com/store/apps/details?id=com.microsoft.copilot&hl=en&gl=US)) for free! Requires a Microsoft account.
+
+
 ### Summarization
 
 
@@ -261,7 +275,7 @@ Thanks, and enjoy!
 * [Label Studio](https://labelstud.io/): Open source python library / framework for data labelling 
 
 
-### LLM Development:
+### LLM Development
 
 
 
@@ -273,6 +287,8 @@ Thanks, and enjoy!
 * [llama.cpp](https://github.com/ggerganov/llama.cpp): Inference from Meta’s LLaMA model in pure C/C++. Python integration through [llama-cpp-python](https://llama-cpp-python.readthedocs.io/en/latest/).
 * [Ollama](https://ollama.ai/): Host LLMs locally, includes models like LLaMA, Mistral, Zephyr, Falcon, etc.
 * [llamafile](llamafile): Framework for LLMs as single executable files for local execution and development work, examples of one-liners and use from its creator here [Bash One-Liners for LLMs](https://justine.lol/oneliners/)
+* [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer): CPU/GPU LLM inference engine leveraging activation locality for fast on-device generation and serving of results from LLMs locally.
+* [MLC LLM](https://llm.mlc.ai/): Native deployment of LLMs with native APIs with compiler acceleration. Includes [WebLLM](https://webllm.mlc.ai/) for serving LLMs through the browser and examples of locally developed Android and iPhone LLM apps.
 
 
 ### Multimodal LLMs
@@ -296,6 +312,7 @@ Thanks, and enjoy!
 * [Multimodal LLMs by Chip Hyugen](https://huyenchip.com/2023/10/10/multimodal.html): A good post on multimodal LLMs, including foundational / historical models leading up to SOTA like CLIP and Flamingo.
 * [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/): A kind of open-source GPT4-V, chat / instruction agent able to work with image data, from researchers at Microsoft, U of Wisconsin, and Columbia. [Demo site is here](https://llava.hliu.cc/).
 * [SPHINX](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX): Multimodal, multi-task LLM released by researchers at the University of Shanghai. [Demo is here](https://imagebind-llm.opengvlab.com/).
+* [Ferret](https://github.com/apple/ml-ferret/): Open model from Apple for grounding and object identification.
 
 
 #### Audio
@@ -394,6 +411,7 @@ Thanks, and enjoy!
 
 * [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/): LLM trained by Bloomberg from scratch based on code / approaches from BLOOM
 * [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT): Finance-specific family of models trained with RLHF, fine-tuned from various base foundation models.
+* [DocLLM](https://arxiv.org/pdf/2401.00908.pdf): Layout-aware large language moel from JPMorgan
 
 
 #### Science and Health
@@ -442,6 +460,7 @@ Thanks, and enjoy!
 * [The Curious Case of LLM Evaluation](https://nlpurr.github.io/posts/case-of-llm-evals.html): In depth blog post, examining some of the finer nuances and sticking points of evaluating LLMs. 
 * [LLM Benchmarks](https://benchmarks.llmonitor.com/): Dynamic dataset of crowd-sourced prompt that changes weekly for more realistic LLM evaluation.
 * [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness): EleutherAI’s language model evaluation harness, a unified framework to test generative language models on over 200 different evaluation tasks.
+* [PromptBench](https://github.com/microsoft/promptbench): Unified framework for LLM evaluation from Microsoft.
 
 
 ### Agents
@@ -554,8 +573,8 @@ Thanks, and enjoy!
 * [Prompts for Education: Enhancing Productivity & Learning](https://github.com/microsoft/prompts-for-edu): Github repo with resources on using generative AI and prompting in educational settings. 
 * [How I Think About Prompt Engineering](https://fchollet.substack.com/p/how-i-think-about-llm-prompt-engineering): Post by Francis Chollet (creator of Keras) relating prompting back to programming paradigms.
 * [PromptIDE](https://x.ai/prompt-ide): Development environment and paradigm for prompt programming from xAI using their Grok model.
-* [Prompt Engineering Guide from OpenAI](https://platform.openai.com/docs/guides/prompt-engineering): Official Guide from OpenAPI on prompt engineering best practices (December 2023).
-* [Introduction to prompt design](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design): Anthropic guide for prompt engineering with Claude.
+* [Prompt Engineering Guide from OpenAI:](https://platform.openai.com/docs/guides/prompt-engineering) Official Guide from OpenAPI on prompt engineering best practices (December 2023).
+* [Introduction to prompt design:](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design) Anthropic guide for prompt engineering with Claude.
 
 
 ### Ethics, Bias, and Legal
@@ -610,7 +629,7 @@ Thanks, and enjoy!
 * [CS685: Advanced Natural Language Processing (Spring 2023)](https://youtube.com/playlist?list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj&feature=shared): Content of this graduate-level course from the University of Massachusetts Amherst - lots of content on LLMs and Transformers. [Full course materials here](https://people.cs.umass.edu/~miyyer/cs685/schedule.html).
 * [CS5785 Applied Machine Learning](https://github.com/kuleshov/cornell-cs5785-2023-applied-ml): Lecture notes and slides from Cornell’s Applied Machine Learning Course, Fall 2023.
 * [CS388: Natural Language Processing](https://www.cs.utexas.edu/~gdurrett/courses/online-course/materials.html): University of Texas at Austin offers its Master-level NLP course online CS388 by Prof Greg Durrett from the University of Texas at Austin. Videos for lectures are in a [Youtube playlist here](https://www.youtube.com/playlist?list=PLofp2YXfp7TZZ5c7HEChs0_wfEfewLDs7).
-* [Hugging Face’s NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1\): With a focus on using the transformers library and transformer models.
+* [Hugging Face’s NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1): With a focus on using the transformers library and transformer models.
 * [LLM University](https://docs.cohere.com/docs/llmu): Documentation and free learning on LLMs from Cohere.
 * [Large Language Model Course](https://github.com/mlabonne/llm-course): A microcourse composed of Colab notebooks and associated blog posts from Maxime Labonne @ JPMorganChase.
 * [Advanced NLP with spaCy](https://course.spacy.io/en/): Course from Ines Montani, one of the course developers at spaCY, one using it. Includes data analysis, pipelines, and fitting models.
