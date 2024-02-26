@@ -281,6 +281,7 @@ Thanks, and enjoy!
 
 * [GPT4All](https://gpt4all.io): Locally-hosted LLM from Nomic for offline development. 
 * [LM Studio](https://lmstudio.ai/): Software framework for local LLM development and usage.
+* [Jan](https://jan.ai/): Offline GUI for working with LLMs. Mobile app under development.
 * [OpenAI Cookbook:](https://cookbook.openai.com/) Recipes and tutorial posts for working and building with OpenAI, all in one place. Example code in the [Github repo](https://github.com/openai/openai-cookbook).
 * [SuperWhisper](https://superwhisper.com/): Local usage of Whisper model on Mac OS, allows you to speak commands to your machine and have them transcribed (all locally).
 * [Cursor](https://cursor.sh/): Locally installable code editor with autocomplete, chat, etc. backed by OpenAI GPT3.5/4.
@@ -322,6 +323,7 @@ Thanks, and enjoy!
 * [wav2vec 2.0](https://anwarvic.github.io/speech-recognition/wav2vec_2) And [w2v-BERT](https://anwarvic.github.io/speech-recognition/w2v-BERT): Explanations of the technical details behind these multimodal models from Meta’s FAIR group and Google Brain, by Mohamed Anwar
 * [Musenet](https://openai.com/research/musenet): Older research from OpenAI, Musenet applied the GPT architecture to MIDI files to compose music.
 * [AudioCraft:](https://ai.meta.com/resources/models-and-libraries/audiocraft/) Multiple models from Meta research, for music (MusicGen), sound effect (AudioGen), and a codec and diffusion model for recovering compressed audio (EnCodec and Multi-band Diffusion). Demo also available in a [Hugging Face space](https://huggingface.co/spaces/facebook/MusicGen), and a [sample Colab notebook here](https://huggingface.co/spaces/facebook/MusicGen/blob/main/demo.ipynb).
+* [Audiobox](https://ai.meta.com/blog/audiobox-generating-audio-voice-natural-language-prompts/): Text-to-audio and speech prompt to audio from Meta. Interactive [demo site here](https://audiobox.metademolab.com/).
 * [StableAudio](https://www.stableaudio.com/): Diffusion-based music generation model from Stability AI. [Blog post with technical details](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion).
 * [SALMONN](https://github.com/bytedance/SALMONN): Speech Audio Language Music Open Neural Network from researchers at Tsinghua University and ByteDance. Allows for things like inquiring about the content of audio files, multilingual speech recognition & translation and audio-speech co-reasoning.
 * Real-time translation and lip-synching: [https://blog.invgate.com/video-translator](https://blog.invgate.com/video-translator)
@@ -359,6 +361,7 @@ Thanks, and enjoy!
 * [VideoPoet](https://sites.research.google/videopoet/): Synthetic video generation from Google Research, taking a variety of inputs (text, image, video).
 * [Pika Labs](https://pika.art): AI startup for video creation with $55 million in backing.
 * [Assistive Video](https://assistive.chat/product/video): Video generation from text from AI startup Assistive
+* [MagicVideo-V2](https://magicvideov2.github.io/): Multi-Stage High-Aesthetic Video Generation. Text-to-video model from ByteDance research.
 
 
 #### Other Multimodal LLM Applications
@@ -395,6 +398,7 @@ Thanks, and enjoy!
 * [DuetAI for Developers](https://cloud.google.com/blog/products/application-development/introducing-duet-ai-for-developers): Coding assistance based on PaLM as part of Google’s DuetAI offering. 
 * [Gorilla LLM](https://gorilla.cs.berkeley.edu/): LLM model from researchers at UC Berkeley trained to generate API calls across many different platforms and tools.
 * [Deepseek Coder](https://deepseekcoder.github.io): Series of bilinginual English/Chinese coding LLMs from DeepSeek AI, trained from scratch on 2T tokens, with a composition of 87% code and 13% natural language.
+* [Phind 70B](https://www.phind.com/blog/introducing-phind-70b): Code generation model purported to rival GPT-4 from AI startup Phind 
 
 
 #### Mathematics
@@ -422,6 +426,14 @@ Thanks, and enjoy!
 * [BioGPT](https://github.com/microsoft/BioGPT): Generative Pre-trained Transformer for Biomedical Text Generation and Mining, open LLM from Microsoft Research trained on PubMeb papers.
 * [MedPALM](https://sites.research.google/med-palm/): A large language model from Google Research, designed for the medical domain. Google has continued this work with [MedLM](https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry),
 * [Meditron](https://arxiv.org/abs/2311.16079): Fine-tuned LLaMAs on medical data from Swiss university EPFL. HuggingFace space [here](https://huggingface.co/epfl-llm/meditron-70b). Github [here](https://github.com/epfLLM/meditron).
+
+
+#### Time Series
+
+
+
+* [TimeGPT](https://www.nixtla.io/timegpt): Transformer-based time series prediction models from NIXTLA. Requires using their service / an API token.
+* [Lag-Llama](https://github.com/time-series-foundation-models/lag-llama): Towards Foundation Models for Probabilistic Time Series Forecasting. Open-source foundation model for time series forecasting based on the transformer architecture.
 
 
 ### Vector Databases and Frameworks
@@ -543,10 +555,12 @@ Thanks, and enjoy!
 
 
 
+* [LLaMa 2](https://llama.meta.com/): Incredibly popular open weights (with license) model from Meta AI which spawned a generation of offspring and fine-tunes. Comes in 7, 13, and 70B versions.
+* [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/): Popular open model from French startup Mistral with no fine-tuning (only pretraining). See also: the [Mixtral 8x7B](https://mistral.ai/news/mixtral-of-experts/) mixture of experts successor.
+* [Gemma](https://blog.google/technology/developers/gemma-open-models/): Lightweight open models from Google based on the same architecture as Gemini. Comes in 2B and 7B base and instruction-tuned versions.
 * [GPT-J](https://huggingface.co/EleutherAI/gpt-j-6b) and [GPT Neo-X](https://huggingface.co/EleutherAI/gpt-neox-20b): Open model trained from scratch by Eleuther AI.
 * [Falcon 40B](https://falconllm.tii.ae/): Open text generation LLM from UAE’s Technology Innovation Institute (TII). Available on Hugging Face [here](https://huggingface.co/tiiuae/falcon-40b).
 * [Minotaur 15B](https://huggingface.co/openaccess-ai-collective/minotaur-15b): Fine-tuned version of Starcoder on open code datasets from the OpenAccess AI Collective
-* [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/): Popular open model from French startup Mistral with no fine-tuning (only pretraining).  
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
