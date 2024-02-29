@@ -388,7 +388,7 @@ Thanks, and enjoy!
 * [CodeCompose](https://techcrunch.com/2023/05/18/meta-built-a-code-generating-ai-model-similar-to-copilot/): (TechCruch article): Meta’s internal coding LLM / answer to Copilot 
 * [CodeInterpreter:](https://openai.com/blog/chatgpt-plugins#code-interpreter) Experimental ChatGPT plugin that provides it with access to executing python code.
 * [StableCode](https://stability.ai/blog/stablecode-llm-generative-ai-coding): Stability AI’s generative LLM coding model. Hugging Face [collection here](https://huggingface.co/collections/stabilityai/stablecode-64f9dfb4ebc8a1be0a3f7650). Github [here](https://github.com/Stability-AI/StableCode).
-* [Starcoder](https://huggingface.co/blog/starcoder): Coding LLM from Hugging Face. Github [is here](https://github.com/bigcode-project/starcoder).
+* [Starcoder](https://huggingface.co/blog/starcoder): Coding LLM from Hugging Face. Github [is here](https://github.com/bigcode-project/starcoder). **Update**: [Starcoder 2](https://huggingface.co/blog/starcoder2) has been released as of Feb 2024! 
 * [Ghostwriter](https://replit.com/site/ghostwriter): an AI-powered programming assistant from Replit AI.
 * [DeciCoder 1B](https://huggingface.co/Deci/DeciCoder-1b): Code completion LLM from Deci AI, trained on Starcoder dataset. 
 * [SQLCoder](https://github.com/defog-ai/sqlcoder): Open text-to-SQL query models fine-tuned on Starcoder, from Defog AI. Demo [is here](https://defog.ai/sqlcoder-demo/).
