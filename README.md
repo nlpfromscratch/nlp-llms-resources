@@ -256,6 +256,7 @@ Thanks, and enjoy!
 * [Finetuning LLMs with LoRA and QLoRA: Insights from Hundreds of Experiments](https://lightning.ai/pages/community/lora-insights): Results of many experiments with model fine tuning using LoRA and QLoRA from Lightning AI, on memory and compute usage, training time, etc.
 * [Overview of PEFT: State-of-the-art Parameter-Efficient Fine-Tuning](https://www.kdnuggets.com/overview-of-peft-stateoftheart-parameterefficient-finetuning): Article from KDNuggets with example code using LLaMA 7B
 * [Llama Recipes](https://github.com/facebookresearch/llama-recipes): Recipes from Meta themselves for fine-tuning LLaMA
+* [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl): Software framework for streamlining fine-tuning of LLMs from OpenAccess AI Collective.
 
 
 ### Model Quantization
@@ -290,6 +291,7 @@ Thanks, and enjoy!
 * [llamafile](llamafile): Framework for LLMs as single executable files for local execution and development work, examples of one-liners and use from its creator here [Bash One-Liners for LLMs](https://justine.lol/oneliners/)
 * [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer): CPU/GPU LLM inference engine leveraging activation locality for fast on-device generation and serving of results from LLMs locally.
 * [MLC LLM](https://llm.mlc.ai/): Native deployment of LLMs with native APIs with compiler acceleration. Includes [WebLLM](https://webllm.mlc.ai/) for serving LLMs through the browser and examples of locally developed Android and iPhone LLM apps.
+* [DSPy](https://github.com/stanfordnlp/dspy): Framework for algorithmically optimizing :LLM prompts and weights from Stanford NLP.
 
 
 ### Multimodal LLMs
@@ -361,6 +363,7 @@ Thanks, and enjoy!
 * [VideoPoet](https://sites.research.google/videopoet/): Synthetic video generation from Google Research, taking a variety of inputs (text, image, video).
 * [Pika Labs](https://pika.art): AI startup for video creation with $55 million in backing.
 * [Assistive Video](https://assistive.chat/product/video): Video generation from text from AI startup Assistive
+* [Haiper](https://haiper.ai/): Text-to-video for short clips (2-4s) from Google Deepmind alumni. Free to use with an account.
 * [MagicVideo-V2](https://magicvideov2.github.io/): Multi-Stage High-Aesthetic Video Generation. Text-to-video model from ByteDance research.
 
 
@@ -426,6 +429,13 @@ Thanks, and enjoy!
 * [BioGPT](https://github.com/microsoft/BioGPT): Generative Pre-trained Transformer for Biomedical Text Generation and Mining, open LLM from Microsoft Research trained on PubMeb papers.
 * [MedPALM](https://sites.research.google/med-palm/): A large language model from Google Research, designed for the medical domain. Google has continued this work with [MedLM](https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry),
 * [Meditron](https://arxiv.org/abs/2311.16079): Fine-tuned LLaMAs on medical data from Swiss university EPFL. HuggingFace space [here](https://huggingface.co/epfl-llm/meditron-70b). Github [here](https://github.com/epfLLM/meditron).
+
+
+#### Law
+
+
+
+* [SaulLM-7B](https://arxiv.org/abs/2403.03883): Legal LLM from researchers at Equall.ai and other universities. A fine-tune of Mistral-7B trained on a legal corpus of over 30B tokens. 
 
 
 #### Time Series
@@ -564,7 +574,8 @@ Thanks, and enjoy!
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
-* [Yi](https://01.ai/): Bilingual open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B.
+* [Yi](https://01.ai/): Bilingual open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B. Also [Yi-9B](https://huggingface.co/01-ai/Yi-9B) open-sourced in March 2024.
+* [OpenHermes](https://huggingface.co/collections/NousResearch/hermes-650a66656fb511ba9ea86ff1): Popular series of open (and uncensored) LLMs from Nousresearch, fine tunes of models such as LLaMA, Mixtral, Yi, and SOLAR.
 * [Poro 34B](https://huggingface.co/LumiOpen/Poro-34B?utm_source=substack&utm_medium=email): Fully open-source bilingual Finnish & English model trained in collaboration between Finnish startup Silo AI and the TurkuNLP group of the University of Turku.
 * [Nemotron-3 8B](https://developer.nvidia.com/blog/nvidia-ai-foundation-models-build-custom-enterprise-chatbots-and-co-pilots-with-production-ready-llms/): Family of “semi-open” (requires accepting a license) LLMs from NVIDIA, optimized for their Nemo framework. Find them all on the [collections page](https://huggingface.co/collections/nvidia/nemotron-3-8b-6553adeb226f6ab4ffc356f9) on HF.
 * [ML Foundations](https://github.com/mlfoundations): Github repo for Ludwig Schmidt from University of Washington, includes open versions of multimodal models Flamingo & CLIP
@@ -589,6 +600,8 @@ Thanks, and enjoy!
 * [PromptIDE](https://x.ai/prompt-ide): Development environment and paradigm for prompt programming from xAI using their Grok model.
 * [Prompt Engineering Guide from OpenAI:](https://platform.openai.com/docs/guides/prompt-engineering) Official Guide from OpenAPI on prompt engineering best practices (December 2023).
 * [Introduction to prompt design:](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design) Anthropic guide for prompt engineering with Claude.
+* [Prompt Library](https://docs.anthropic.com/claude/prompt-library): Library of prompts from Anthropic for use with their models.
+* [More Useful Things: Prompt Library](https://www.moreusefulthings.com/prompts): Prompt library from researchers at Wharton, primarily geared towards a classroom / teaching setting.
 
 
 ### Ethics, Bias, and Legal
@@ -606,7 +619,7 @@ Thanks, and enjoy!
 * [Detoxify](https://github.com/unitaryai/detoxify): Toxic comment classification models based on BERT.
 * [Artificial Intelligence and Data Act (AIDA) Companion Document](https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act-aida-companion-document): High level details on the proposed Canadian AI legislation as part of [Bill C-27](https://www.parl.ca/DocumentViewer/en/44-1/bill/C-27/first-reading).
 * [Evaluating social and ethical risks from generative AI](https://deepmind.google/discover/blog/evaluating-social-and-ethical-risks-from-generative-ai/): Blog post and source paper from Deepmind on framework for risks from GenAI.
-* [The Alignment Handbook](https://github.com/huggingface/alignment-handbook): From the Hugging Face team, provides a series robust training recipes that span the whole LLM pipeline for ensuring model alignment.
+* [The Alignment Handbook](https://github.com/huggingface/alignment-handbook): From the Hugging Face team, provides a series of robust training recipes that span the whole LLM pipeline for ensuring model alignment.
 * [Decoding Intentions](https://cset.georgetown.edu/publication/decoding-intentions/): Artificial Intelligence and Costly Signals: The paper from Helen Toner on the OpenAI board that ruffled Sam Altan’s feathers.
 * [Cold Takes](https://www.cold-takes.com/): Ethics and AI blog and podcast from Holden Karnofsky of Open Philanthropy
 
