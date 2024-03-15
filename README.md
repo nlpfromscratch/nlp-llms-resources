@@ -377,6 +377,7 @@ Thanks, and enjoy!
 * [TADA! Text to Animatable Digital Avatars](https://tada.is.tue.mpg.de): Research on models for synthetic generation of 3D avatars from text prompts, from researchers in China and Germany
 * [GATO](https://www.deepmind.com/publications/a-generalist-agent): Generalist agent from Google Deepmind research for many tasks and media types
 * [Tome](https://tome.app/): Startup for AI-generated slides (Powerpoint)
+* [TripoSR](https://github.com/vast-ai-research/triposr): Image to 3D generative model jointly developed by Tripo AI & Stability AI
 
 
 ### Domain-specific LLMs
@@ -573,6 +574,7 @@ Thanks, and enjoy!
 * [Minotaur 15B](https://huggingface.co/openaccess-ai-collective/minotaur-15b): Fine-tuned version of Starcoder on open code datasets from the OpenAccess AI Collective
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
+* [Command-R](https://txt.cohere.com/command-r/): Open LLM from Cohere for AI for long-context tasks such as retrieval augmented generation (RAG) and tool use. Available [on Hugging Face here](https://huggingface.co/CohereForAI/c4ai-command-r-v01).
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
 * [Yi](https://01.ai/): Bilingual open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B. Also [Yi-9B](https://huggingface.co/01-ai/Yi-9B) open-sourced in March 2024.
 * [OpenHermes](https://huggingface.co/collections/NousResearch/hermes-650a66656fb511ba9ea86ff1): Popular series of open (and uncensored) LLMs from Nousresearch, fine tunes of models such as LLaMA, Mixtral, Yi, and SOLAR.
