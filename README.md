@@ -575,6 +575,7 @@ Thanks, and enjoy!
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
 * [Command-R](https://txt.cohere.com/command-r/): Open LLM from Cohere for AI for long-context tasks such as retrieval augmented generation (RAG) and tool use. Available [on Hugging Face here](https://huggingface.co/CohereForAI/c4ai-command-r-v01).
+* [Grok-1](https://github.com/xai-org/grok-1): X.ai’s LLM, an MoE with 314B parameters, weights available via torrent. This is the (pre-trained) base model only, and not fine-tuned for chat.
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
 * [Yi](https://01.ai/): Bilingual open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B. Also [Yi-9B](https://huggingface.co/01-ai/Yi-9B) open-sourced in March 2024.
 * [OpenHermes](https://huggingface.co/collections/NousResearch/hermes-650a66656fb511ba9ea86ff1): Popular series of open (and uncensored) LLMs from Nousresearch, fine tunes of models such as LLaMA, Mixtral, Yi, and SOLAR.
