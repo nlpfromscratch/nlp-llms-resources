@@ -163,6 +163,7 @@ Thanks, and enjoy!
 * [OpenNMT](https://opennmt.net): Open neural machine translation models in Pytorch and Tensorflow. Documentation for [python here](https://opennmt.net/OpenNMT-py/).
 * [FinGPT-3](https://turkunlp.org/gpt3-finnish): GPT model trained in Finnish, from a research group at the University of Turku, Finland.
 * [Jais 13-B](https://www.inceptioniai.org/jais/): Bilingual Arabic/English model based on GPT-3 architecture, from Inception AI / Core42 group in UAE.
+* [Evo-LLM-JP](https://sakana.ai/evolutionary-model-merge/): Japanese LLM from AI startup Sakana.ai created using evolutionary model merging. There is a chat model, a vision model, and a stable diffusion model all of which can be prompted and converse in Japanese. On Hugging Face [here](https://huggingface.co/SakanaAI).
 
 
 ### Natural Language Inference (NLI) and Natural Language Understanding (NLU)
