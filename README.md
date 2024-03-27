@@ -477,7 +477,9 @@ Thanks, and enjoy!
 * [HeLM](https://crfm.stanford.edu/helm/latest/): Holistic Evaluation of Language Models, a “living” benchmark designed to be comprehensive, from the Center for Research on Foundation Models (CRFM) at Stanford.
 * [HellaSwag](https://rowanzellers.com/hellaswag/): a challenge dataset for evaluating commonsense NLI that is specially hard for state-of-the-art models, though its questions are trivial for humans (>95% accuracy).
 * [Dynabench](https://dynabench.org/): A “platform for dynamic data collection and benchmarking”. Sort of a Kaggle / collaborative site for benchmarks and data collaboration, an effort of researchers from Meta and American universities.
+* [LMSys Chatbot Area:](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) Leaderboard from LMSys group based upon human evaluation and Elo score. The only evaluation that [Andrej Karpathy trusts](https://www.reddit.com/r/LocalLLaMA/comments/18n3ar3/karpathy_on_llm_evals/).
 * [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): Leaderboard from H4 (alignment) Group at Hugging Face. Largely open and fine-tuned models, though this can be filtered.
+* [AlpacaEval Leaderboard](https://tatsu-lab.github.io/alpaca_eval/): AlpacaEval an LLM-based automatic evaluation based on the AlpacaFarm evaluation set, which tests the ability of models to follow general user instructions.
 * [OpenCompass](https://opencompass.org.cn/leaderboard-llm): Leaderboard for Chinese LLMs.
 * [Evaluating LLMs is a minefield](https://www.cs.princeton.edu/~arvindn/talks/evaluating_llms_minefield/): Popular deck from researchers at Princeton (and authors of AI Snake Oil) on the pitfalls and intricacies of evaluating LLMs. 
 * [LM Contamination Index](https://hitz-zentroa.github.io/lm-contamination/): The LM Contamination Index is a manually created database of contamination of LLM evaluation benchmarks.
@@ -572,8 +574,10 @@ Thanks, and enjoy!
 * [Gemma](https://blog.google/technology/developers/gemma-open-models/): Lightweight open models from Google based on the same architecture as Gemini. Comes in 2B and 7B base and instruction-tuned versions.
 * [GPT-J](https://huggingface.co/EleutherAI/gpt-j-6b) and [GPT Neo-X](https://huggingface.co/EleutherAI/gpt-neox-20b): Open model trained from scratch by Eleuther AI.
 * [Falcon 40B](https://falconllm.tii.ae/): Open text generation LLM from UAE’s Technology Innovation Institute (TII). Available on Hugging Face [here](https://huggingface.co/tiiuae/falcon-40b).
+* [OLMo](https://allenai.org/olmo): Open Language Models from the Allen Institute for AI (AI2)
 * [Minotaur 15B](https://huggingface.co/openaccess-ai-collective/minotaur-15b): Fine-tuned version of Starcoder on open code datasets from the OpenAccess AI Collective
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
+* [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm): Family of mixture-of-experts (MoE) large language model trained from scratch by Databricks Mosaic Research. Try it out in the Hugging Face [playground here](https://huggingface.co/spaces/databricks/dbrx-instruct).
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions.
 * [Command-R](https://txt.cohere.com/command-r/): Open LLM from Cohere for AI for long-context tasks such as retrieval augmented generation (RAG) and tool use. Available [on Hugging Face here](https://huggingface.co/CohereForAI/c4ai-command-r-v01).
 * [Grok-1](https://github.com/xai-org/grok-1): X.ai’s LLM, an MoE with 314B parameters, weights available via torrent. This is the (pre-trained) base model only, and not fine-tuned for chat.
