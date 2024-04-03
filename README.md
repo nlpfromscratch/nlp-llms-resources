@@ -277,14 +277,15 @@ Thanks, and enjoy!
 * [Label Studio](https://labelstud.io/): Open source python library / framework for data labelling 
 
 
-### LLM Development
+### Local LLM Development
 
 
 
+* [OpenAI Cookbook:](https://cookbook.openai.com/) Recipes and tutorial posts for working and building with OpenAI, all in one place. Example code in the [Github repo](https://github.com/openai/openai-cookbook).
 * [GPT4All](https://gpt4all.io): Locally-hosted LLM from Nomic for offline development. 
 * [LM Studio](https://lmstudio.ai/): Software framework for local LLM development and usage.
 * [Jan](https://jan.ai/): Offline GUI for working with LLMs. Mobile app under development.
-* [OpenAI Cookbook:](https://cookbook.openai.com/) Recipes and tutorial posts for working and building with OpenAI, all in one place. Example code in the [Github repo](https://github.com/openai/openai-cookbook).
+* [TransformerLab](https://github.com/transformerlab/transformerlab-app?tab=readme-ov-file): Open source project for GUI interface for working with LLMs locally. 
 * [SuperWhisper](https://superwhisper.com/): Local usage of Whisper model on Mac OS, allows you to speak commands to your machine and have them transcribed (all locally).
 * [Cursor](https://cursor.sh/): Locally installable code editor with autocomplete, chat, etc. backed by OpenAI GPT3.5/4.
 * [llama.cpp](https://github.com/ggerganov/llama.cpp): Inference from Meta’s LLaMA model in pure C/C++. Python integration through [llama-cpp-python](https://llama-cpp-python.readthedocs.io/en/latest/).
@@ -292,7 +293,7 @@ Thanks, and enjoy!
 * [llamafile](llamafile): Framework for LLMs as single executable files for local execution and development work, examples of one-liners and use from its creator here [Bash One-Liners for LLMs](https://justine.lol/oneliners/)
 * [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer): CPU/GPU LLM inference engine leveraging activation locality for fast on-device generation and serving of results from LLMs locally.
 * [MLC LLM](https://llm.mlc.ai/): Native deployment of LLMs with native APIs with compiler acceleration. Includes [WebLLM](https://webllm.mlc.ai/) for serving LLMs through the browser and examples of locally developed Android and iPhone LLM apps.
-* [DSPy](https://github.com/stanfordnlp/dspy): Framework for algorithmically optimizing :LLM prompts and weights from Stanford NLP.
+* [DSPy](https://github.com/stanfordnlp/dspy): Framework for algorithmically optimizing LLM prompts and weights from Stanford NLP.
 
 
 ### Multimodal LLMs
@@ -504,6 +505,8 @@ Thanks, and enjoy!
 * [GPT Engineer](https://github.com/AntonOsika/gpt-engineer): Python framework for attempting to get GPT to write code and build software.
 * [MetaGPT - The Multi-Agent Framework](https://github.com/geekan/MetaGPT): Agent framework where different assigned roles (product managers, architects, project managers, engineers) are used for building different products (user stories, competitive analysis, requirements, data structures, etc.) given a requirement.
 * [OpenGPTs](https://github.com/langchain-ai/opengpts): Open source effort from Langchain to create a similar experience to OpenAI's GPTs with greater flexibility and choice.
+* [Devin](https://www.cognition-labs.com/introducing-devin): “AI software engineer” from startup Cognition Labs.
+* [SWE-Agent:](https://swe-agent.com/) Open source software engineering agent framework from researchers at Princeton.
 
 
 ### Application Frameworks:
