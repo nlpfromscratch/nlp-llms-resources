@@ -48,9 +48,10 @@ Thanks, and enjoy!
 * [Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/): Large image & caption pair dataset from Google research.
 * [Instruction Tuning Volume 1](https://nlpnewsletter.substack.com/p/instruction-tuning-vol-1): List of popular instruction-tuning datasets from Sebastian Ruder
 * [Objaverse](https://objaverse.allenai.org/): Massive dataset of annotated 3D objects (with associated text labels) from Allen Institute. Comes in two sizes: 1.0 (800K objects) and XL (~10M objects).
+* [Gretel Synthetic Text to SQL Dataset](https://gretel.ai/blog/synthetic-text-to-sql-dataset): Open dataset of synthetically generated natural language and SQL query pairs for LLM training, from Gretel AI.
 
 
-### Data Acquistion
+### Data Acquisition
 
 
 
@@ -582,7 +583,7 @@ Thanks, and enjoy!
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm): Family of mixture-of-experts (MoE) large language model trained from scratch by Databricks Mosaic Research. Try it out in the Hugging Face [playground here](https://huggingface.co/spaces/databricks/dbrx-instruct).
 * [Qwen](https://github.com/QwenLM/Qwen): Open LLM models from Alibaba Cloud in 7B and 14B sizes, including chat versions. Model family [1.5 released Feb 2024](https://github.com/QwenLM/Qwen1.5) and [Qwen1.5-MoE](https://qwenlm.github.io/blog/qwen-moe/) Mixture of Experts model released 03/28/2024.
-* [Command-R](https://txt.cohere.com/command-r/): Open LLM from Cohere for AI for long-context tasks such as retrieval augmented generation (RAG) and tool use. Available [on Hugging Face here](https://huggingface.co/CohereForAI/c4ai-command-r-v01).
+* [Command-R](https://txt.cohere.com/command-r/) / [Command-R+](https://txt.cohere.com/command-r-plus-microsoft-azure/): Open LLM from Cohere for AI for long-context tasks such as retrieval augmented generation (RAG) and tool use. Available on HuggingFace [Command-R](https://huggingface.co/CohereForAI/c4ai-command-r-v01), [Command-R+](https://huggingface.co/CohereForAI/c4ai-command-r-plus)
 * [Grok-1](https://github.com/xai-org/grok-1): X.ai’s LLM, an MoE with 314B parameters, weights available via torrent. This is the (pre-trained) base model only, and not fine-tuned for chat.
 * [Jamba](https://www.ai21.com/blog/announcing-jamba): Hybrid SSM-Transformer model from AI21 Labs - “world’s first production grade Mamba based model”. Weights [on Hugging Face here](https://huggingface.co/ai21labs/Jamba-v0.1). 
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
