@@ -574,10 +574,11 @@ Thanks, and enjoy!
 
 
 * [LLaMa 2](https://llama.meta.com/): Incredibly popular open weights (with license) model from Meta AI which spawned a generation of offspring and fine-tunes. Comes in 7, 13, and 70B versions.
-* [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/): Popular open model from French startup Mistral with no fine-tuning (only pretraining). See also: the [Mixtral 8x7B](https://mistral.ai/news/mixtral-of-experts/) mixture of experts successor.
+* [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/): Popular open model from French startup Mistral with no fine-tuning (only pretraining). See also: the [Mixtral 8x7B](https://mistral.ai/news/mixtral-of-experts/) mixture of experts successor, [Mixtral 8x22B](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1-4bit)
 * [Gemma](https://blog.google/technology/developers/gemma-open-models/): Lightweight open models from Google based on the same architecture as Gemini. Comes in 2B and 7B base and instruction-tuned versions.
 * [GPT-J](https://huggingface.co/EleutherAI/gpt-j-6b) and [GPT Neo-X](https://huggingface.co/EleutherAI/gpt-neox-20b): Open model trained from scratch by Eleuther AI.
 * [Falcon 40B](https://falconllm.tii.ae/): Open text generation LLM from UAE’s Technology Innovation Institute (TII). Available on Hugging Face [here](https://huggingface.co/tiiuae/falcon-40b).
+* [StableLM](https://github.com/stability-AI/stableLM/): Open language model from Stability AI. Succeeded by StableLM 2, in [1.6B](https://stability.ai/news/introducing-stable-lm-2) (Jan 2024) and [12B versions](https://stability.ai/news/introducing-stable-lm-2-12b) (April 2024, try [live demo here](https://huggingface.co/spaces/stabilityai/stablelm-2-chat))  
 * [OLMo](https://allenai.org/olmo): Open Language Models from the Allen Institute for AI (AI2)
 * [Minotaur 15B](https://huggingface.co/openaccess-ai-collective/minotaur-15b): Fine-tuned version of Starcoder on open code datasets from the OpenAccess AI Collective
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
