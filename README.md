@@ -49,6 +49,7 @@ Thanks, and enjoy!
 * [Instruction Tuning Volume 1](https://nlpnewsletter.substack.com/p/instruction-tuning-vol-1): List of popular instruction-tuning datasets from Sebastian Ruder
 * [Objaverse](https://objaverse.allenai.org/): Massive dataset of annotated 3D objects (with associated text labels) from Allen Institute. Comes in two sizes: 1.0 (800K objects) and XL (~10M objects).
 * [Gretel Synthetic Text to SQL Dataset](https://gretel.ai/blog/synthetic-text-to-sql-dataset): Open dataset of synthetically generated natural language and SQL query pairs for LLM training, from Gretel AI.
+* [Fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb): 15T token dataset of cleaned and deduplicated data from CommonCrawl by Hugging Face.
 
 
 ### Data Acquisition
