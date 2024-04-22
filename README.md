@@ -354,7 +354,7 @@ Thanks, and enjoy!
 
 
 * [Generative Image Dynamics](https://generative-dynamics.github.io/): Model from researchers at Google for creating looping images or interactive images from still ones. 
-* [IDEFICS](https://huggingface.co/blog/idefics): Open multimodal text and image model from Hugging Face based on [Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/), similar to GPT4-V.
+* [IDEFICS](https://huggingface.co/blog/idefics): Open multimodal text and image model from Hugging Face based on [Flamingo](https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/), similar to GPT4-V. Updated version [IDEFICS 2](https://huggingface.co/blog/idefics2) released 04/2024 with [demo here](https://huggingface.co/spaces/HuggingFaceM4/idefics-8b).
 * [NeRF](https://www.matthewtancik.com/nerf); Neural Radiance fields creates multiple views of a scene from a single image. 
 * [ZipNeRF](https://jonbarron.info/zipnerf/): Building on NeRF with more advanced techniques and impressive results, generating drone-style “fly-by” videos from still images of settings.
 * [Pegasus-1](https://app.twelvelabs.io/blog/introducing-pegasus-1): Multimodal model from TwelveLabs for describing videos and video-to-text generation.
@@ -392,10 +392,12 @@ Thanks, and enjoy!
 
 * [Github Copilot](https://github.com/features/copilot): Github’s AI coding assistant, based on OpenAI’s Codex model.
 * [GitHub Copilot Fundamentals - Understand the AI pair programmer](https://learn.microsoft.com/en-us/training/paths/copilot/|): Introductory online training / short course on Copilot from Microsoft.
+* [Gemini Code Assist:](https://cloud.google.com/gemini/docs/codeassist/overview) Code assistant from Google based on Gemini. Available in Google Cloud or in local IDEs via a plugin (requires subscription).
 * [CodeCompose](https://techcrunch.com/2023/05/18/meta-built-a-code-generating-ai-model-similar-to-copilot/): (TechCruch article): Meta’s internal coding LLM / answer to Copilot 
 * [CodeInterpreter:](https://openai.com/blog/chatgpt-plugins#code-interpreter) Experimental ChatGPT plugin that provides it with access to executing python code.
 * [StableCode](https://stability.ai/blog/stablecode-llm-generative-ai-coding): Stability AI’s generative LLM coding model. Hugging Face [collection here](https://huggingface.co/collections/stabilityai/stablecode-64f9dfb4ebc8a1be0a3f7650). Github [here](https://github.com/Stability-AI/StableCode).
-* [Starcoder](https://huggingface.co/blog/starcoder): Coding LLM from Hugging Face. Github [is here](https://github.com/bigcode-project/starcoder). **Update**: [Starcoder 2](https://huggingface.co/blog/starcoder2) has been released as of Feb 2024! 
+* [Starcoder](https://huggingface.co/blog/starcoder): Coding LLM from Hugging Face. Github [is here](https://github.com/bigcode-project/starcoder). **Update**: [Starcoder 2](https://huggingface.co/blog/starcoder2) has been released as of Feb 2024!
+* [CodeQwen-1.5](https://qwenlm.github.io/blog/codeqwen1.5/): Code-specific version of Alibaba’s Qwen model. 
 * [Ghostwriter](https://replit.com/site/ghostwriter): an AI-powered programming assistant from Replit AI.
 * [DeciCoder 1B](https://huggingface.co/Deci/DeciCoder-1b): Code completion LLM from Deci AI, trained on Starcoder dataset. 
 * [SQLCoder](https://github.com/defog-ai/sqlcoder): Open text-to-SQL query models fine-tuned on Starcoder, from Defog AI. Demo [is here](https://defog.ai/sqlcoder-demo/).
@@ -433,6 +435,7 @@ Thanks, and enjoy!
 * [BioGPT](https://github.com/microsoft/BioGPT): Generative Pre-trained Transformer for Biomedical Text Generation and Mining, open LLM from Microsoft Research trained on PubMeb papers.
 * [MedPALM](https://sites.research.google/med-palm/): A large language model from Google Research, designed for the medical domain. Google has continued this work with [MedLM](https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry),
 * [Meditron](https://arxiv.org/abs/2311.16079): Fine-tuned LLaMAs on medical data from Swiss university EPFL. HuggingFace space [here](https://huggingface.co/epfl-llm/meditron-70b). Github [here](https://github.com/epfLLM/meditron).
+* [MedicalLLM](https://huggingface.co/blog/leaderboard-medicalllm): Evaluation benchmark for medical LLMs from Hugging Face including leaderboard.
 
 
 #### Law
