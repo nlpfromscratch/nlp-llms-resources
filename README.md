@@ -279,11 +279,18 @@ Thanks, and enjoy!
 * [Label Studio](https://labelstud.io/): Open source python library / framework for data labelling 
 
 
-### Local LLM Development
+### Code Examples and Cookbooks
 
 
 
 * [OpenAI Cookbook:](https://cookbook.openai.com/) Recipes and tutorial posts for working and building with OpenAI, all in one place. Example code in the [Github repo](https://github.com/openai/openai-cookbook).
+* [Cohere Guides](https://github.com/cohere-ai/notebooks/tree/main/notebooks/guides): Example notebooks for working with Cohere for various LLM usage cases.
+
+
+### Local LLM Development
+
+
+
 * [GPT4All](https://gpt4all.io): Locally-hosted LLM from Nomic for offline development. 
 * [LM Studio](https://lmstudio.ai/): Software framework for local LLM development and usage.
 * [Jan](https://jan.ai/): Offline GUI for working with LLMs. Mobile app under development.
@@ -296,6 +303,7 @@ Thanks, and enjoy!
 * [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer): CPU/GPU LLM inference engine leveraging activation locality for fast on-device generation and serving of results from LLMs locally.
 * [MLC LLM](https://llm.mlc.ai/): Native deployment of LLMs with native APIs with compiler acceleration. Includes [WebLLM](https://webllm.mlc.ai/) for serving LLMs through the browser and examples of locally developed Android and iPhone LLM apps.
 * [DSPy](https://github.com/stanfordnlp/dspy): Framework for algorithmically optimizing LLM prompts and weights from Stanford NLP.
+* [AnythingLLM](https://useanything.com/): Docker-based framework for offline LLM usage with RAG.
 
 
 ### Multimodal LLMs
@@ -320,6 +328,7 @@ Thanks, and enjoy!
 * [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/): A kind of open-source GPT4-V, chat / instruction agent able to work with image data, from researchers at Microsoft, U of Wisconsin, and Columbia. [Demo site is here](https://llava.hliu.cc/).
 * [SPHINX](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX): Multimodal, multi-task LLM released by researchers at the University of Shanghai. [Demo is here](https://imagebind-llm.opengvlab.com/).
 * [Ferret](https://github.com/apple/ml-ferret/): Open model from Apple for grounding and object identification.
+* [XGen-MM](https://huggingface.co/collections/Salesforce/xgen-mm-1-models-662971d6cecbf3a7f80ecc2e): Continuation of (and rebranding) of Salesforce’s multimodal [BLIP](https://github.com/salesforce/BLIP?tab=readme-ov-file) model for image interrogation.
 
 
 #### Audio
@@ -348,6 +357,8 @@ Thanks, and enjoy!
 * [The Future of Music - How Generative AI Is Transforming the Music Industry](https://a16z.com/the-future-of-music-how-generative-ai-is-transforming-the-music-industry/): Blog post from Anderssen-Horowitz covering a lot of recent developments in the intersection of the music industry and GenAI tools.
 * [StyleTTS2](https://github.com/yl4579/StyleTTS2): Diffusion and adversarial model for realistic speech synthesis (TTS). Audio samples and comparisons with previous models are [here](https://styletts2.github.io/).
 * [Qwen-Audio](https://qwen-audio.github.io/Qwen-Audio/): Multimodal audio understanding LLM from Alibaba Group
+* [Audio Diffusion Pytorch](https://github.com/archinetai/audio-diffusion-pytorch): A fully featured audio diffusion library in PyTorch, from researchers at ElevenLabs.
+* 
 
 
 #### Video and Animation
@@ -371,7 +382,7 @@ Thanks, and enjoy!
 * [MagicVideo-V2](https://magicvideov2.github.io/): Multi-Stage High-Aesthetic Video Generation. Text-to-video model from ByteDance research.
 
 
-#### Other Multimodal LLM Applications
+#### 3D Model Generation
 
 
 
@@ -379,9 +390,17 @@ Thanks, and enjoy!
 * [DreamBooth3D](https://dreambooth3d.github.io/): Approach for generating high-quality custom 3D models from source images. 
 * [MVDream:](https://mv-dream.github.io/gallery_0.html) 3D model generation from Diffusion from researchers at ByteDance.
 * [TADA! Text to Animatable Digital Avatars](https://tada.is.tue.mpg.de): Research on models for synthetic generation of 3D avatars from text prompts, from researchers in China and Germany
-* [GATO](https://www.deepmind.com/publications/a-generalist-agent): Generalist agent from Google Deepmind research for many tasks and media types
-* [Tome](https://tome.app/): Startup for AI-generated slides (Powerpoint)
 * [TripoSR](https://github.com/vast-ai-research/triposr): Image to 3D generative model jointly developed by Tripo AI & Stability AI
+* [Microdreamer](https://github.com/ml-gsai/microdreamer): Github repo for implementation of Zero-shot 3D Generation in ~20 Seconds from researchers at Renmin University of China
+
+
+#### Powerpoint and Presentation Creation
+
+
+
+* [Tome](https://tome.app/): Startup for AI-generated slides (Powerpoint). Free to signup.
+* [Decktopus](https://www.decktopus.com/): “World’s #1 AI-Powered Presentation Generator”. Paid signup
+* [Beautiful.ai](Beautiful.ai): Another AI-based slide deck generator (paid)
 
 
 ### Domain-specific LLMs
@@ -435,7 +454,7 @@ Thanks, and enjoy!
 * [Galactica](https://www.technologyreview.com/2022/11/18/1063487/meta-large-language-model-ai-only-survived-three-days-gpt-3-science/): (MIT Blog Post) Learnings from Meta’s Galactica LLM, trained on scientific research papers.
 * [BioGPT](https://github.com/microsoft/BioGPT): Generative Pre-trained Transformer for Biomedical Text Generation and Mining, open LLM from Microsoft Research trained on PubMeb papers.
 * [MedPALM](https://sites.research.google/med-palm/): A large language model from Google Research, designed for the medical domain. Google has continued this work with [MedLM](https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry),
-* [Meditron](https://arxiv.org/abs/2311.16079): Fine-tuned LLaMAs on medical data from Swiss university EPFL. HuggingFace space [here](https://huggingface.co/epfl-llm/meditron-70b). Github [here](https://github.com/epfLLM/meditron).
+* [Meditron](https://arxiv.org/abs/2311.16079): Fine-tuned LLaMAs on medical data from Swiss university EPFL. HuggingFace space [here](https://huggingface.co/epfl-llm/meditron-70b). Github [here](https://github.com/epfLLM/meditron). [Llama3 version](https://meditron-ddx.github.io/llama3-meditron.github.io/) released 2024/04/19.
 * [MedicalLLM](https://huggingface.co/blog/leaderboard-medicalllm): Evaluation benchmark for medical LLMs from Hugging Face including leaderboard.
 
 
@@ -512,6 +531,7 @@ Thanks, and enjoy!
 * [OpenGPTs](https://github.com/langchain-ai/opengpts): Open source effort from Langchain to create a similar experience to OpenAI's GPTs with greater flexibility and choice.
 * [Devin](https://www.cognition-labs.com/introducing-devin): “AI software engineer” from startup Cognition Labs.
 * [SWE-Agent:](https://swe-agent.com/) Open source software engineering agent framework from researchers at Princeton.
+* [GATO](https://www.deepmind.com/publications/a-generalist-agent): Generalist agent from Google Deepmind research for many tasks and media types
 
 
 ### Application Frameworks:
@@ -584,6 +604,7 @@ Thanks, and enjoy!
 * [Falcon 40B](https://falconllm.tii.ae/): Open text generation LLM from UAE’s Technology Innovation Institute (TII). Available on Hugging Face [here](https://huggingface.co/tiiuae/falcon-40b).
 * [StableLM](https://github.com/stability-AI/stableLM/): Open language model from Stability AI. Succeeded by StableLM 2, in [1.6B](https://stability.ai/news/introducing-stable-lm-2) (Jan 2024) and [12B versions](https://stability.ai/news/introducing-stable-lm-2-12b) (April 2024, try [live demo here](https://huggingface.co/spaces/stabilityai/stablelm-2-chat))  
 * [OLMo](https://allenai.org/olmo): Open Language Models from the Allen Institute for AI (AI2)
+* [Snowflake Arctic](https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/): Open LLM from Snowflake, released April 2024. [Github here](https://github.com/Snowflake-Labs/snowflake-arctic) and on [Hugging Face here](https://huggingface.co/Snowflake).
 * [Minotaur 15B](https://huggingface.co/openaccess-ai-collective/minotaur-15b): Fine-tuned version of Starcoder on open code datasets from the OpenAccess AI Collective
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
 * [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm): Family of mixture-of-experts (MoE) large language model trained from scratch by Databricks Mosaic Research. Try it out in the Hugging Face [playground here](https://huggingface.co/spaces/databricks/dbrx-instruct).
