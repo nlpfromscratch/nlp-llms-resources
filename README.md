@@ -427,7 +427,8 @@ Thanks, and enjoy!
 * [DuetAI for Developers](https://cloud.google.com/blog/products/application-development/introducing-duet-ai-for-developers): Coding assistance based on PaLM as part of Google’s DuetAI offering. 
 * [Gorilla LLM](https://gorilla.cs.berkeley.edu/): LLM model from researchers at UC Berkeley trained to generate API calls across many different platforms and tools.
 * [Deepseek Coder](https://deepseekcoder.github.io): Series of bilinginual English/Chinese coding LLMs from DeepSeek AI, trained from scratch on 2T tokens, with a composition of 87% code and 13% natural language.
-* [Phind 70B](https://www.phind.com/blog/introducing-phind-70b): Code generation model purported to rival GPT-4 from AI startup Phind 
+* [Phind 70B](https://www.phind.com/blog/introducing-phind-70b): Code generation model purported to rival GPT-4 from AI startup Phind.
+* [Granite](https://research.ibm.com/blog/granite-code-models-open-source?utm_source=tldrai): Open-sourced family of code-specific LLMs from IBM Research. On Hugging Face [here](https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330).
 
 
 #### Mathematics
@@ -471,6 +472,7 @@ Thanks, and enjoy!
 
 * [TimeGPT](https://www.nixtla.io/timegpt): Transformer-based time series prediction models from NIXTLA. Requires using their service / an API token.
 * [Lag-Llama](https://github.com/time-series-foundation-models/lag-llama): Towards Foundation Models for Probabilistic Time Series Forecasting. Open-source foundation model for time series forecasting based on the transformer architecture.
+* [Granite](https://research.ibm.com/blog/granite-code-models-open-source?utm_source=tldrai): Time-series versions of open-sourced family of LLMs from IBM Research. On Hugging Face [here](https://huggingface.co/collections/ibm-granite/granite-time-series-models-663a90c6a2da73482bce3dc6).
 
 
 ### Vector Databases and Frameworks
@@ -532,6 +534,7 @@ Thanks, and enjoy!
 * [Devin](https://www.cognition-labs.com/introducing-devin): “AI software engineer” from startup Cognition Labs.
 * [SWE-Agent:](https://swe-agent.com/) Open source software engineering agent framework from researchers at Princeton.
 * [GATO](https://www.deepmind.com/publications/a-generalist-agent): Generalist agent from Google Deepmind research for many tasks and media types
+* [WebLLaMa](https://webllama.github.io/): Fine-tuned version of LLaMa 3 from McGill University and optimized for web browsing tasks..
 
 
 ### Application Frameworks:
@@ -602,6 +605,7 @@ Thanks, and enjoy!
 * [Gemma](https://blog.google/technology/developers/gemma-open-models/): Lightweight open models from Google based on the same architecture as Gemini. Comes in 2B and 7B base and instruction-tuned versions.
 * [GPT-J](https://huggingface.co/EleutherAI/gpt-j-6b) and [GPT Neo-X](https://huggingface.co/EleutherAI/gpt-neox-20b): Open model trained from scratch by Eleuther AI.
 * [Falcon 40B](https://falconllm.tii.ae/): Open text generation LLM from UAE’s Technology Innovation Institute (TII). Available on Hugging Face [here](https://huggingface.co/tiiuae/falcon-40b).
+* [Falcon 2 11B](https://falconllm.tii.ae/falcon-2.html): Second set of models in the series from TII, released May 2024, including a multimodal model. On Hugging Face [here](https://huggingface.co/tiiuae/falcon-11B)c.
 * [StableLM](https://github.com/stability-AI/stableLM/): Open language model from Stability AI. Succeeded by StableLM 2, in [1.6B](https://stability.ai/news/introducing-stable-lm-2) (Jan 2024) and [12B versions](https://stability.ai/news/introducing-stable-lm-2-12b) (April 2024, try [live demo here](https://huggingface.co/spaces/stabilityai/stablelm-2-chat))  
 * [OLMo](https://allenai.org/olmo): Open Language Models from the Allen Institute for AI (AI2)
 * [Snowflake Arctic](https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/): Open LLM from Snowflake, released April 2024. [Github here](https://github.com/Snowflake-Labs/snowflake-arctic) and on [Hugging Face here](https://huggingface.co/Snowflake).
