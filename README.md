@@ -294,11 +294,13 @@ Thanks, and enjoy!
 * [GPT4All](https://gpt4all.io): Locally-hosted LLM from Nomic for offline development. 
 * [LM Studio](https://lmstudio.ai/): Software framework for local LLM development and usage.
 * [Jan](https://jan.ai/): Offline GUI for working with LLMs. Mobile app under development.
+* [Open WebUI](https://github.com/open-webui/open-webui): Self-hosted WebUI for LLMS to operate entirely offline - formly Ollama Web UI.
 * [TransformerLab](https://github.com/transformerlab/transformerlab-app?tab=readme-ov-file): Open source project for GUI interface for working with LLMs locally. 
 * [SuperWhisper](https://superwhisper.com/): Local usage of Whisper model on Mac OS, allows you to speak commands to your machine and have them transcribed (all locally).
 * [Cursor](https://cursor.sh/): Locally installable code editor with autocomplete, chat, etc. backed by OpenAI GPT3.5/4.
 * [llama.cpp](https://github.com/ggerganov/llama.cpp): Inference from Meta’s LLaMA model in pure C/C++. Python integration through [llama-cpp-python](https://llama-cpp-python.readthedocs.io/en/latest/).
 * [Ollama](https://ollama.ai/): Host LLMs locally, includes models like LLaMA, Mistral, Zephyr, Falcon, etc.
+* [Exploring Ollama for On-Device AI](https://pyimagesearch.com/2024/05/20/inside-look-exploring-ollama-for-on-device-ai/): Comprehensive tutorial on Ollama from PyImageSearch
 * [llamafile](llamafile): Framework for LLMs as single executable files for local execution and development work, examples of one-liners and use from its creator here [Bash One-Liners for LLMs](https://justine.lol/oneliners/)
 * [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer): CPU/GPU LLM inference engine leveraging activation locality for fast on-device generation and serving of results from LLMs locally.
 * [MLC LLM](https://llm.mlc.ai/): Native deployment of LLMs with native APIs with compiler acceleration. Includes [WebLLM](https://webllm.mlc.ai/) for serving LLMs through the browser and examples of locally developed Android and iPhone LLM apps.
@@ -514,6 +516,7 @@ Thanks, and enjoy!
 * [LLM Benchmarks](https://benchmarks.llmonitor.com/): Dynamic dataset of crowd-sourced prompt that changes weekly for more realistic LLM evaluation.
 * [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness): EleutherAI’s language model evaluation harness, a unified framework to test generative language models on over 200 different evaluation tasks.
 * [PromptBench](https://github.com/microsoft/promptbench): Unified framework for LLM evaluation from Microsoft.
+* [HarmBench](https://www.harmbench.org/about): Standardized evaluation framework for automated red teaming for mitigating risks associated with malicious use of LLMs. Paper [on arxiv](https://arxiv.org/abs/2402.04249).
 
 
 ### Agents
