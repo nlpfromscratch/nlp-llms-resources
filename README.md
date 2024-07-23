@@ -325,12 +325,15 @@ Thanks, and enjoy!
 * [Emu: Enhancing Image Generation Models Using Photogenic Needles in a Haystack AI](https://ai.meta.com/research/publications/emu-enhancing-image-generation-models-using-photogenic-needles-in-a-haystack): Fine-tuning of Stable Diffusion from Meta research focusing on high-quality images.
 * [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://dreambooth.github.io/): Method for fine-tuning diffusion models to generate custom images of a subject based on samples.
 * [AutoTrain Dreambooth (Colab)](https://colab.research.google.com/github/huggingface/autotrain-advanced/blob/main/colabs/AutoTrain_Dreambooth.ipynb#scrollTo=_LvIS7-7PcLT): Google Colab notebook for Autotraining Dreambooth models using Hugging Face.
+* [CM3leon](https://ai.meta.com/blog/generative-ai-text-images-cm3leon/): Mixed modal model from Meta Research, available here.
 * [Kosmos-G: Generating Images in Context with Multimodal Large Language Models](https://xichenpan.com/kosmosg/): Model from Microsoft Research for generating variations of images given text prompts with minimal to no training.
+* [CommonCanvas](https://huggingface.co/common-canvas): Series of models from MosaicML (Databricks) trained only on images with Creative Commons Licensing.
 * [Multimodal LLMs by Chip Hyugen](https://huyenchip.com/2023/10/10/multimodal.html): A good post on multimodal LLMs, including foundational / historical models leading up to SOTA like CLIP and Flamingo.
 * [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/): A kind of open-source GPT4-V, chat / instruction agent able to work with image data, from researchers at Microsoft, U of Wisconsin, and Columbia. [Demo site is here](https://llava.hliu.cc/).
 * [SPHINX](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX): Multimodal, multi-task LLM released by researchers at the University of Shanghai. [Demo is here](https://imagebind-llm.opengvlab.com/).
 * [Ferret](https://github.com/apple/ml-ferret/): Open model from Apple for grounding and object identification.
 * [XGen-MM](https://huggingface.co/collections/Salesforce/xgen-mm-1-models-662971d6cecbf3a7f80ecc2e): Continuation of (and rebranding) of Salesforce’s multimodal [BLIP](https://github.com/salesforce/BLIP?tab=readme-ov-file) model for image interrogation.
+* [Florence 2](https://huggingface.co/collections/microsoft/florence-6669f44df0d87d9c3bfb76de): Family of “small” (200M and 800M parameter) VLMs from Microsoft for a wide range of vision and vision-language tasks, _e.g. _captioning, object detection, segmentation, etc. Comes in 
 
 
 #### Audio
@@ -360,7 +363,8 @@ Thanks, and enjoy!
 * [StyleTTS2](https://github.com/yl4579/StyleTTS2): Diffusion and adversarial model for realistic speech synthesis (TTS). Audio samples and comparisons with previous models are [here](https://styletts2.github.io/).
 * [Qwen-Audio](https://qwen-audio.github.io/Qwen-Audio/): Multimodal audio understanding LLM from Alibaba Group
 * [Audio Diffusion Pytorch](https://github.com/archinetai/audio-diffusion-pytorch): A fully featured audio diffusion library in PyTorch, from researchers at ElevenLabs.
-* 
+* [MARS5-TTS](https://github.com/Camb-ai/MARS5-TTS): English TTS model from Camb.ai. With just 5 seconds of audio and a snippet of text, MARS5 can generate speech even for prosodically hard and diverse scenarios like sports commentary, anime and more. 
+* [IMS Toucan](https://github.com/DigitalPhonetics/IMS-Toucan): IMS Toucan is a toolkit for teaching, training and using state-of-the-art Speech Synthesis models, developed at the Institute for Natural Language Processing (IMS), University of Stuttgart, Germany. 
 
 
 #### Video and Animation
@@ -382,6 +386,7 @@ Thanks, and enjoy!
 * [Assistive Video](https://assistive.chat/product/video): Video generation from text from AI startup Assistive
 * [Haiper](https://haiper.ai/): Text-to-video for short clips (2-4s) from Google Deepmind alumni. Free to use with an account.
 * [MagicVideo-V2](https://magicvideov2.github.io/): Multi-Stage High-Aesthetic Video Generation. Text-to-video model from ByteDance research.
+* [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA): Open model for visual question answering in images, video, and between video and image data.
 
 
 #### 3D Model Generation
@@ -430,6 +435,7 @@ Thanks, and enjoy!
 * [DuetAI for Developers](https://cloud.google.com/blog/products/application-development/introducing-duet-ai-for-developers): Coding assistance based on PaLM as part of Google’s DuetAI offering. 
 * [Gorilla LLM](https://gorilla.cs.berkeley.edu/): LLM model from researchers at UC Berkeley trained to generate API calls across many different platforms and tools.
 * [Deepseek Coder](https://deepseekcoder.github.io): Series of bilinginual English/Chinese coding LLMs from DeepSeek AI, trained from scratch on 2T tokens, with a composition of 87% code and 13% natural language.
+* [Codestral Mamba](https://mistral.ai/news/codestral/): Open coding model from Mistral based on the MAMBA architecture.
 * [Phind 70B](https://www.phind.com/blog/introducing-phind-70b): Code generation model purported to rival GPT-4 from AI startup Phind.
 * [Granite](https://research.ibm.com/blog/granite-code-models-open-source?utm_source=tldrai): Open-sourced family of code-specific LLMs from IBM Research. On Hugging Face [here](https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330).
 
@@ -440,6 +446,7 @@ Thanks, and enjoy!
 
 * [MathGLM](https://github.com/THUDM/MathGLM): Open model from Tsinghua University researchers challenging the statement that LLMs cannot do mathematics well. Nonetheless, [math remains hard if you’re an LLM](https://garymarcus.substack.com/p/math-is-hard-if-you-are-an-llm-and).
 * [Llemma: An Open Language Model For Mathematics](https://blog.eleuther.ai/llemma): Fine-tuned version of CodeLLaMA on new dataset [Proof-Pile-2](https://huggingface.co/datasets/EleutherAI/proof-pile-2) from Eleuther AI, a mixture of scientific papers and mathematical web content.
+* [Mathstral](https://mistral.ai/news/mathstral/): Open model 7B parameter model from Mistral AI specialized in mathematics and STEM tasks.
 
 
 #### Finance
@@ -448,7 +455,7 @@ Thanks, and enjoy!
 
 * [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/): LLM trained by Bloomberg from scratch based on code / approaches from BLOOM
 * [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT): Finance-specific family of models trained with RLHF, fine-tuned from various base foundation models.
-* [DocLLM](https://arxiv.org/pdf/2401.00908.pdf): Layout-aware large language moel from JPMorgan
+* [DocLLM](https://arxiv.org/pdf/2401.00908.pdf): Layout-aware large language model from JPMorgan
 
 
 #### Science and Health
@@ -606,12 +613,14 @@ Thanks, and enjoy!
 
 * [LLaMa 2](https://llama.meta.com/): Incredibly popular open weights (with license) model from Meta AI which spawned a generation of offspring and fine-tunes. Comes in 7, 13, and 70B versions.
 * [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/): Popular open model from French startup Mistral with no fine-tuning (only pretraining). See also: the [Mixtral 8x7B](https://mistral.ai/news/mixtral-of-experts/) mixture of experts successor, [Mixtral 8x22B](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1-4bit)
+* [Mistral NeMO](https://mistral.ai/news/mistral-nemo/): Open model from Mistral with 128B parameters, trained in partnership with NVIDIA and a new updated tokenizer (Tekken). [Model on Hugging Face](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407).
 * [Gemma](https://blog.google/technology/developers/gemma-open-models/): Lightweight open models from Google based on the same architecture as Gemini. Comes in 2B and 7B base and instruction-tuned versions.
 * [GPT-J](https://huggingface.co/EleutherAI/gpt-j-6b) and [GPT Neo-X](https://huggingface.co/EleutherAI/gpt-neox-20b): Open model trained from scratch by Eleuther AI.
 * [Falcon 40B](https://falconllm.tii.ae/): Open text generation LLM from UAE’s Technology Innovation Institute (TII). Available on Hugging Face [here](https://huggingface.co/tiiuae/falcon-40b).
 * [Falcon 2 11B](https://falconllm.tii.ae/falcon-2.html): Second set of models in the series from TII, released May 2024, including a multimodal model. On Hugging Face [here](https://huggingface.co/tiiuae/falcon-11B)c.
 * [StableLM](https://github.com/stability-AI/stableLM/): Open language model from Stability AI. Succeeded by StableLM 2, in [1.6B](https://stability.ai/news/introducing-stable-lm-2) (Jan 2024) and [12B versions](https://stability.ai/news/introducing-stable-lm-2-12b) (April 2024, try [live demo here](https://huggingface.co/spaces/stabilityai/stablelm-2-chat))  
 * [OLMo](https://allenai.org/olmo): Open Language Models from the Allen Institute for AI (AI2)
+* [DCLM-7B](https://huggingface.co/apple/DCLM-7B): 7 billion parameter language model from Apple designed to showcase the effectiveness of systematic data curation techniques for improving language model performance.
 * [Snowflake Arctic](https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/): Open LLM from Snowflake, released April 2024. [Github here](https://github.com/Snowflake-Labs/snowflake-arctic) and on [Hugging Face here](https://huggingface.co/Snowflake).
 * [Minotaur 15B](https://huggingface.co/openaccess-ai-collective/minotaur-15b): Fine-tuned version of Starcoder on open code datasets from the OpenAccess AI Collective
 * [MPT](https://www.mosaicml.com/mpt): Family of open models free for commercial use from MosaicML. Includes [MPT Storywriter](https://huggingface.co/mosaicml/mpt-7b-storywriter) which has a 65K context window.
@@ -620,6 +629,7 @@ Thanks, and enjoy!
 * [Command-R](https://txt.cohere.com/command-r/) / [Command-R+](https://txt.cohere.com/command-r-plus-microsoft-azure/): Open LLM from Cohere for AI for long-context tasks such as retrieval augmented generation (RAG) and tool use. Available on HuggingFace [Command-R](https://huggingface.co/CohereForAI/c4ai-command-r-v01), [Command-R+](https://huggingface.co/CohereForAI/c4ai-command-r-plus)
 * [Aya](https://cohere.com/research/aya): Massively multilingual models from Cohere for AI, [Aya 101](https://huggingface.co/CohereForAI/aya-101) and 23 which support those many languages respectively each. [Aya 23](https://huggingface.co/collections/CohereForAI/c4ai-aya-23-664f4cda3fa1a30553b221dc) comes in 8B and 35B versions. 
 * [Grok-1](https://github.com/xai-org/grok-1): X.ai’s LLM, an MoE with 314B parameters, weights available via torrent. This is the (pre-trained) base model only, and not fine-tuned for chat.
+* [SmolLM](https://huggingface.co/blog/smollm): Family of small language models (SLMs) from Huggingface in 135M, 360M, and 1.7B parameters. On Hugging Face [here](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966).
 * [Jamba](https://www.ai21.com/blog/announcing-jamba): Hybrid SSM-Transformer model from AI21 Labs - “world’s first production grade Mamba based model”. Weights [on Hugging Face here](https://huggingface.co/ai21labs/Jamba-v0.1). 
 * [Fuyu-8B](https://www.adept.ai/blog/fuyu-8b): Open multimodal model from Adept AI, a smaller version of the model that powers their commercial product.
 * [Yi](https://01.ai/): Bilingual open LLM from Chinese startup [01.AI](01.ai) founded by Kai-Fu Lee, with two versions Yi-34B & 6B. Also [Yi-9B](https://huggingface.co/01-ai/Yi-9B) open-sourced in March 2024.
@@ -739,6 +749,7 @@ Thanks, and enjoy!
 * [Natural Language Processing in Action, Second Edition](https://www.manning.com/books/natural-language-processing-in-action-second-edition): by Hobson Lane and Maria Dyshel from Manning. Currently a MEAP set for release in Jan 2024.
 * [Natural Language Processing with Transformers](https://transformersbook.com/): by Lewis Tunstall, Leandro von Werra, and Thomas Wolf. From O’Reilly. You can view the code associated with the book in the [Github repo here](https://github.com/nlp-with-transformers/notebooks).
 * [Applied Text Analysis with Python](https://www.oreilly.com/library/view/applied-text-analysis/9781491963036/): by Benjamin Bengfort, Rebecca Bilbro, Tony Ojeda, from O’Reilly. Aimed at Python developers breaking into NLP and focuses on building product and includes using Spark.
+* [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch/): by Sebastian Raschka. This github report contains the code and examples from the book.
 
 
 ### Surveys
