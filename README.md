@@ -504,6 +504,7 @@ Thanks, and enjoy!
 
 
 
+* [ESGenius](https://github.com/ANGEL-NTU/ESGenius): First benchmark for evaluating LLMs on Environmental, Social, and Governance (ESG) and sustainability knowledge — 1,136 expert-validated multiple-choice questions with a curated source corpus, evaluating 50 LLMs under zero-shot and RAG ([EMNLP 2025](https://aclanthology.org/2025.emnlp-main.739/), [dataset](https://huggingface.co/datasets/cy0307/ESGenius)).
 * [The Stanford Natural Language Inference (SNLI) Corpus](https://nlp.stanford.edu/projects/snli/): Foundational dataset for NLI-based evaluation, 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral.
 * [GLUE](https://gluebenchmark.com/): General Language Understanding Evaluation Benchmark from NYU, University of Washington, and Google - model evaluation using Natural Language Inference (NLI) tasks.
 * [SuperGLUE](https://super.gluebenchmark.com/): The Super General Language Understanding Evaluation, a new benchmark styled after GLUE with a new set of more difficult language understanding tasks, improved resources, and a new public leaderboard.
