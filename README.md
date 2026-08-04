@@ -343,6 +343,7 @@ Thanks, and enjoy!
 * [wav2vec 2.0](https://anwarvic.github.io/speech-recognition/wav2vec_2) And [w2v-BERT](https://anwarvic.github.io/speech-recognition/w2v-BERT): Explanations of the technical details behind these multimodal models from Meta’s FAIR group and Google Brain, by Mohamed Anwar
 * [Musenet](https://openai.com/research/musenet): Older research from OpenAI, Musenet applied the GPT architecture to MIDI files to compose music.
 * [AudioCraft:](https://ai.meta.com/resources/models-and-libraries/audiocraft/) Multiple models from Meta research, for music (MusicGen), sound effect (AudioGen), and a codec and diffusion model for recovering compressed audio (EnCodec and Multi-band Diffusion). Demo also available in a [Hugging Face space](https://huggingface.co/spaces/facebook/MusicGen), and a [sample Colab notebook here](https://huggingface.co/spaces/facebook/MusicGen/blob/main/demo.ipynb).
+* [vtmate](https://github.com/DavidValin/vtmate) Terminal based voice conversations with ai models, including debates between ai agents and ability to voice-read text files. Versatile and configurable [video demo](https://www.youtube.com/watch?v=TfNcgVsR3oc)
 * [Audiobox](https://ai.meta.com/blog/audiobox-generating-audio-voice-natural-language-prompts/): Text-to-audio and speech prompt to audio from Meta. Interactive [demo site here](https://audiobox.metademolab.com/).
 * [StableAudio](https://www.stableaudio.com/): Diffusion-based music generation model from Stability AI. [Blog post with technical details](https://stability.ai/research/stable-audio-efficient-timing-latent-diffusion).
 * [SALMONN](https://github.com/bytedance/SALMONN): Speech Audio Language Music Open Neural Network from researchers at Tsinghua University and ByteDance. Allows for things like inquiring about the content of audio files, multilingual speech recognition & translation and audio-speech co-reasoning.
@@ -659,6 +660,7 @@ Thanks, and enjoy!
 * [Prompt Engineering Guide from OpenAI:](https://platform.openai.com/docs/guides/prompt-engineering) Official Guide from OpenAPI on prompt engineering best practices (December 2023).
 * [Introduction to prompt design:](https://docs.anthropic.com/claude/docs/introduction-to-prompt-design) Anthropic guide for prompt engineering with Claude.
 * [Prompt Library](https://docs.anthropic.com/claude/prompt-library): Library of prompts from Anthropic for use with their models.
+* [Universal Prompt Language (UPL)](https://github.com/DavidValin/universal-prompt-language): Language to define, manage, edit, build and store dynamic reusable prompts using variables and rendering logic
 * [More Useful Things: Prompt Library](https://www.moreusefulthings.com/prompts): Prompt library from researchers at Wharton, primarily geared towards a classroom / teaching setting.
 
 
