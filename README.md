@@ -752,6 +752,8 @@ Thanks, and enjoy!
 * [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch/): by Sebastian Raschka. This github report contains the code and examples from the book.
 
 
+* [Foundation Model Engineering](https://sungeuns.github.io/foundation-model-engineering/): by Seongeun So. Free English/Korean online textbook connecting model architectures with training, serving, retrieval, and evaluation. Includes PyTorch examples, quizzes, and interactive visualizations.
+
 ### Surveys
 
 
