@@ -787,6 +787,7 @@ These are not referral links.
 
 
 * [GPTRoad](https://www.gptroad.com/subscribe): Daily no-nonsense newsletter covering developments in the AI / LLM space. They also [have a site](https://www.gptroad.com/) following the HackerNews template.
+* [AIHOT Daily Brief](https://aihot.news/daily): Chinese-language daily briefing on AI model releases, products, research, and industry news, with links to original reporting.
 * [TLDR AI](https://tldr.tech/ai): Daily newsletter with little fluff, covering developments in AI news.
 * [AI Tool Report](https://aitoolreport.beehiiv.com/): Newsletter from Respell, with AI headlines, jobs,  
 * [The Memo from Lifearchitect.ai](https://lifearchitect.ai/memo/): Bi-weekly newsletter with future-focused updates on developments in the LLM-space.
